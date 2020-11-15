@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="27237" started-at="2020-11-15T11:10:45 CST" finished-at="2020-11-15T11:11:12 CST">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="27237" started-at="2020-11-15T11:10:45 CST" finished-at="2020-11-15T11:11:12 CST">
+      <class name="com.jianyu.testcases.TestNewPostPage">
+        <test-method status="PASS" signature="addListener(org.testng.ITestContext)[pri:0, instance:com.jianyu.testcases.TestNewPostPage@5a8806ef]" name="addListener" is-config="true" duration-ms="12" started-at="2020-11-15T11:10:45 CST" description="添加监听器" finished-at="2020-11-15T11:10:45 CST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@301ec38b]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addListener -->
+        <test-method status="PASS" signature="doBeforeClass()[pri:0, instance:com.jianyu.testcases.TestNewPostPage@5a8806ef]" name="doBeforeClass" is-config="true" duration-ms="5681" started-at="2020-11-15T11:10:45 CST" finished-at="2020-11-15T11:10:51 CST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doBeforeClass -->
+        <test-method status="PASS" signature="initPage()[pri:0, instance:com.jianyu.testcases.TestNewPostPage@5a8806ef]" name="initPage" is-config="true" duration-ms="18033" started-at="2020-11-15T11:10:51 CST" finished-at="2020-11-15T11:11:09 CST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initPage -->
+        <test-method status="PASS" signature="test1()[pri:0, instance:com.jianyu.testcases.TestNewPostPage@5a8806ef]" name="test1" duration-ms="5" started-at="2020-11-15T11:11:09 CST" finished-at="2020-11-15T11:11:09 CST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+        <test-method status="PASS" signature="doAfterMethod()[pri:0, instance:com.jianyu.testcases.TestNewPostPage@5a8806ef]" name="doAfterMethod" is-config="true" duration-ms="3493" started-at="2020-11-15T11:11:09 CST" finished-at="2020-11-15T11:11:12 CST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doAfterMethod -->
+      </class> <!-- com.jianyu.testcases.TestNewPostPage -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

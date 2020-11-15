@@ -1,0 +1,13 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="jianyutest">
+
+<test name="Logintest">
+	<classes>
+		<class name="com.jianyu.testcases.TestLoginPage"/>
+	</classes>
+</test>
+<listeners>
+	<listener class-name="org.uncommons.reportng.HTMLReporter" />
+	<listener class-name="org.uncommons.reportng.JUnitXMLReporter" />
+</listeners>
+</suite>
