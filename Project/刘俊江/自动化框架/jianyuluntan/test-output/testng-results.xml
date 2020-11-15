@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="53298" started-at="2020-11-11T10:40:15 CST" finished-at="2020-11-11T10:41:09 CST">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="53298" started-at="2020-11-11T10:40:15 CST" finished-at="2020-11-11T10:41:09 CST">
+      <class name="com.webtest.demo.TestDemo">
+        <test-method status="PASS" signature="doBeforeClass()[pri:0, instance:com.webtest.demo.TestDemo@3224f60b]" name="doBeforeClass" is-config="true" duration-ms="4062" started-at="2020-11-11T10:40:15 CST" finished-at="2020-11-11T10:40:20 CST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doBeforeClass -->
+        <test-method status="PASS" signature="quit()[pri:0, instance:com.webtest.demo.TestDemo@3224f60b]" name="quit" is-config="true" duration-ms="28" started-at="2020-11-11T10:40:20 CST" finished-at="2020-11-11T10:40:20 CST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+        <test-method status="PASS" signature="test1()[pri:0, instance:com.webtest.demo.TestDemo@3224f60b]" name="test1" duration-ms="11898" started-at="2020-11-11T10:40:20 CST" description="管理员登录" finished-at="2020-11-11T10:40:31 CST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+        <test-method status="PASS" signature="quit()[pri:0, instance:com.webtest.demo.TestDemo@3224f60b]" name="quit" is-config="true" duration-ms="6576" started-at="2020-11-11T10:40:31 CST" finished-at="2020-11-11T10:40:38 CST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+        <test-method status="PASS" signature="test2()[pri:0, instance:com.webtest.demo.TestDemo@3224f60b]" name="test2" duration-ms="11823" started-at="2020-11-11T10:40:38 CST" description="用户1登录" finished-at="2020-11-11T10:40:50 CST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test2 -->
+        <test-method status="PASS" signature="quit()[pri:0, instance:com.webtest.demo.TestDemo@3224f60b]" name="quit" is-config="true" duration-ms="6492" started-at="2020-11-11T10:40:50 CST" finished-at="2020-11-11T10:40:56 CST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+        <test-method status="PASS" signature="test3()[pri:0, instance:com.webtest.demo.TestDemo@3224f60b]" name="test3" duration-ms="11684" started-at="2020-11-11T10:40:56 CST" description="用户2登录" finished-at="2020-11-11T10:41:08 CST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test3 -->
+        <test-method status="PASS" signature="doAfterMethod()[pri:0, instance:com.webtest.demo.TestDemo@3224f60b]" name="doAfterMethod" is-config="true" duration-ms="691" started-at="2020-11-11T10:41:08 CST" finished-at="2020-11-11T10:41:09 CST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doAfterMethod -->
+      </class> <!-- com.webtest.demo.TestDemo -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
