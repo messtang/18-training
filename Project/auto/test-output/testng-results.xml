@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="s1" duration-ms="46371" started-at="2020-11-22T19:52:57 CST" finished-at="2020-11-22T19:53:44 CST">
+    <groups>
+    </groups>
+    <test name="test1" duration-ms="46371" started-at="2020-11-22T19:52:57 CST" finished-at="2020-11-22T19:53:44 CST">
+      <class name="com.webtest.demo.Admin_Login">
+        <test-method status="PASS" signature="doBeforeClass()[pri:0, instance:com.webtest.demo.Admin_Login@6d8a00e3]" name="doBeforeClass" is-config="true" duration-ms="19739" started-at="2020-11-22T19:52:57 CST" finished-at="2020-11-22T19:53:17 CST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doBeforeClass -->
+        <test-method status="PASS" signature="test_Login(java.lang.String, java.lang.String)[pri:0, instance:com.webtest.demo.Admin_Login@6d8a00e3]" name="test_Login" duration-ms="9324" started-at="2020-11-22T19:53:19 CST" data-provider="loginData" finished-at="2020-11-22T19:53:28 CST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admin1234]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_Login -->
+        <test-method status="PASS" signature="test_Login(java.lang.String, java.lang.String)[pri:0, instance:com.webtest.demo.Admin_Login@6d8a00e3]" name="test_Login" duration-ms="3698" started-at="2020-11-22T19:53:28 CST" data-provider="loginData" finished-at="2020-11-22T19:53:32 CST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admin1235]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_Login -->
+        <test-method status="PASS" signature="test_Login(java.lang.String, java.lang.String)[pri:0, instance:com.webtest.demo.Admin_Login@6d8a00e3]" name="test_Login" duration-ms="3225" started-at="2020-11-22T19:53:32 CST" data-provider="loginData" finished-at="2020-11-22T19:53:35 CST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admin1236]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_Login -->
+        <test-method status="PASS" signature="test_Login(java.lang.String, java.lang.String)[pri:0, instance:com.webtest.demo.Admin_Login@6d8a00e3]" name="test_Login" duration-ms="3215" started-at="2020-11-22T19:53:35 CST" data-provider="loginData" finished-at="2020-11-22T19:53:39 CST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admin1237]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_Login -->
+        <test-method status="PASS" signature="doAfterMethod()[pri:0, instance:com.webtest.demo.Admin_Login@6d8a00e3]" name="doAfterMethod" is-config="true" duration-ms="5335" started-at="2020-11-22T19:53:39 CST" finished-at="2020-11-22T19:53:44 CST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doAfterMethod -->
+      </class> <!-- com.webtest.demo.Admin_Login -->
+    </test> <!-- test1 -->
+  </suite> <!-- s1 -->
+</testng-results>

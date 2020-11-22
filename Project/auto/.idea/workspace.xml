@@ -1,0 +1,290 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="cf7f2951-18f8-4cef-a92a-baa3d4d62028" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1k8WJE83j2W2tGymJ5kL25NzY1w" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="GenerateAntBuildDialog.backupFiles" value="true" />
+    <property name="GenerateAntBuildDialog.enableUiFormCompile" value="true" />
+    <property name="GenerateAntBuildDialog.forceTargetJdk" value="true" />
+    <property name="GenerateAntBuildDialog.outputFileNameProperty" value="auto" />
+    <property name="Repository.Attach.Annotations" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/libs" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\idea\auto\libs" />
+      <recent name="D:\idea\auto\src" />
+      <recent name="D:\idea\auto\data" />
+    </key>
+  </component>
+  <component name="RunManager" selected="TestNG.Admin_Login">
+    <configuration name="Admin_Login" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="auto" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.webtest.demo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.webtest.demo" />
+      <option name="MAIN_CLASS_NAME" value="com.webtest.demo.Admin_Login" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Admin_Login.testLogin1" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="auto" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.webtest.demo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.webtest.demo" />
+      <option name="MAIN_CLASS_NAME" value="com.webtest.demo.Admin_Login" />
+      <option name="METHOD_NAME" value="testLogin1" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Admin_Login.testLogin2" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="auto" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.webtest.demo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.webtest.demo" />
+      <option name="MAIN_CLASS_NAME" value="com.webtest.demo.Admin_Login" />
+      <option name="METHOD_NAME" value="testLogin2" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Admin_Login.test_Login" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="auto" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.webtest.demo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.webtest.demo" />
+      <option name="MAIN_CLASS_NAME" value="com.webtest.demo.Admin_Login" />
+      <option name="METHOD_NAME" value="test_Login" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="D:/idea/auto/testng.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="auto" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/testng.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="TestNG.D:/idea/auto/testng.xml" />
+      <item itemvalue="TestNG.Admin_Login" />
+      <item itemvalue="TestNG.Admin_Login.test_Login" />
+      <item itemvalue="TestNG.Admin_Login.testLogin2" />
+      <item itemvalue="TestNG.Admin_Login.testLogin1" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="TestNG.Admin_Login" />
+        <item itemvalue="TestNG.Admin_Login.test_Login" />
+        <item itemvalue="TestNG.Admin_Login.testLogin1" />
+        <item itemvalue="TestNG.Admin_Login.testLogin2" />
+        <item itemvalue="TestNG.D:/idea/auto/testng.xml" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="cf7f2951-18f8-4cef-a92a-baa3d4d62028" name="Default Changelist" comment="" />
+      <created>1605082624773</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1605082624773</updated>
+      <workItem from="1605082627407" duration="4349000" />
+      <workItem from="1605232013457" duration="50000" />
+      <workItem from="1605399031160" duration="1717000" />
+      <workItem from="1605403791136" duration="206000" />
+      <workItem from="1605442391787" duration="170000" />
+      <workItem from="1605487465570" duration="869000" />
+      <workItem from="1605490138603" duration="67000" />
+      <workItem from="1605490851393" duration="8621000" />
+      <workItem from="1605506528007" duration="7799000" />
+      <workItem from="1605576594422" duration="18000" />
+      <workItem from="1605606369709" duration="2690000" />
+      <workItem from="1605615789977" duration="4395000" />
+      <workItem from="1605657769866" duration="4067000" />
+      <workItem from="1605661851783" duration="1202000" />
+      <workItem from="1605664150793" duration="7599000" />
+      <workItem from="1605683650684" duration="385000" />
+      <workItem from="1605684054835" duration="396000" />
+      <workItem from="1605684453464" duration="5208000" />
+      <workItem from="1605697524885" duration="2699000" />
+      <workItem from="1605700267613" duration="1563000" />
+      <workItem from="1605752549067" duration="3140000" />
+      <workItem from="1605778628113" duration="3779000" />
+      <workItem from="1605871050949" duration="1187000" />
+      <workItem from="1606026021557" duration="12478000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.fileTypeFactory" implementationName="*.bat" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="498" y="33" key="#Project_Structure" timestamp="1605083054405">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="498" y="33" key="#Project_Structure/0.0.1366.728@0.0.1366.728" timestamp="1605083054405" />
+    <state x="137" y="21" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1605687218414">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="137" y="21" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1605687218414" />
+    <state x="92" y="92" width="1182" height="544" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog" timestamp="1605701264969">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="92" y="92" width="1182" height="544" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.0.1366.728@0.0.1366.728" timestamp="1605701264969" />
+    <state x="513" y="47" key="#com.intellij.openapi.roots.ui.configuration.libraryEditor.LibraryEditorDialog" timestamp="1605699948872">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="513" y="47" key="#com.intellij.openapi.roots.ui.configuration.libraryEditor.LibraryEditorDialog/0.0.1366.728@0.0.1366.728" timestamp="1605699948872" />
+    <state x="413" y="113" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1606045902375">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="413" y="113" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.728@0.0.1366.728" timestamp="1606045902375" />
+    <state x="298" y="121" key="#com.intellij.util.ui.classpath.ChooseLibrariesDialog" timestamp="1605701447062">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="298" y="121" key="#com.intellij.util.ui.classpath.ChooseLibrariesDialog/0.0.1366.728@0.0.1366.728" timestamp="1605701447062" />
+    <state x="442" y="276" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1605508244412">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="442" y="276" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1366.728@0.0.1366.728" timestamp="1605508244412" />
+    <state x="580" y="115" key="FileChooserDialogImpl" timestamp="1605754643466">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="580" y="115" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1605754643466" />
+    <state width="1323" height="138" key="GridCell.Tab.0.bottom" timestamp="1606047669636">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="138" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1606047669636" />
+    <state width="1323" height="138" key="GridCell.Tab.0.center" timestamp="1606047669636">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="138" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1606047669636" />
+    <state width="1323" height="138" key="GridCell.Tab.0.left" timestamp="1606047669636">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="138" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1606047669636" />
+    <state width="1323" height="138" key="GridCell.Tab.0.right" timestamp="1606047669636">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="138" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1606047669636" />
+    <state width="1323" height="223" key="GridCell.Tab.1.bottom" timestamp="1605681522273">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="223" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1605681522273" />
+    <state width="1323" height="223" key="GridCell.Tab.1.center" timestamp="1605681522273">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="223" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1605681522273" />
+    <state width="1323" height="223" key="GridCell.Tab.1.left" timestamp="1605681522273">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="223" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1605681522273" />
+    <state width="1323" height="223" key="GridCell.Tab.1.right" timestamp="1605681522273">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="223" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1605681522273" />
+    <state x="220" y="0" key="SettingsEditor" timestamp="1605789523010">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="220" y="0" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1605789523010" />
+    <state x="377" y="50" key="antBuildFilePropertiesDialogDimension" timestamp="1605688985251">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="377" y="50" key="antBuildFilePropertiesDialogDimension/0.0.1366.728@0.0.1366.728" timestamp="1605688985251" />
+    <state x="375" y="191" key="com.intellij.ide.util.TipDialog" timestamp="1605872312827">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="375" y="191" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1605872312827" />
+    <state x="381" y="264" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1605699546710">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="381" y="264" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD/0.0.1366.728@0.0.1366.728" timestamp="1605699546710" />
+    <state x="57" y="0" key="new project wizard" timestamp="1605789549889">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="57" y="0" key="new project wizard/0.0.1366.728@0.0.1366.728" timestamp="1605789549889" />
+    <state x="339" y="162" key="run.anything.popup" timestamp="1605617089148">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="339" y="162" key="run.anything.popup/0.0.1366.728@0.0.1366.728" timestamp="1605617089148" />
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1606047799742">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1606047799742" />
+  </component>
+</project>
