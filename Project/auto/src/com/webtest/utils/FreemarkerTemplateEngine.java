@@ -12,7 +12,7 @@ public class FreemarkerTemplateEngine {
     private static final String DEFAULT_TEMPLATE = "1.ftl";   
 //tempalte模板文件的路径 
     public String getTemplatePath() {   
-        return "D:\\java\\FreeMarker\\template";   
+        return System.getProperty("user.dir")+"/template";
     }   
        
     public String run(Map context) throws Exception{   
