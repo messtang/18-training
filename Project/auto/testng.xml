@@ -6,7 +6,7 @@
     </listeners>
     <test name="test1">
         <classes>
-            <class name="com.webtest.demo.AntTest"/>
+            <class name="com.webtest.demo.Admin_Login"/>
         </classes>
     </test>
 
