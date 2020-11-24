@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cf7f2951-18f8-4cef-a92a-baa3d4d62028" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/webtest/demo/AntTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/webtest/demo/AntTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -18,7 +17,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
@@ -205,6 +204,7 @@
       <workItem from="1605871050949" duration="1187000" />
       <workItem from="1606026021557" duration="12478000" />
       <workItem from="1606227702656" duration="1294000" />
+      <workItem from="1606261410085" duration="6000" />
     </task>
     <servers />
   </component>
