@@ -28,9 +28,9 @@ public class MailUtil {
 			Session session = Session.getDefaultInstance(props, null);
 			transport = session.getTransport("smtp");
 			transport.connect(server, user, password);
+
 			MimeMessage msg = new MimeMessage(session);
 			msg.setSentDate(new Date());
-
 			InternetAddress fromAddress = new InternetAddress(user, from, "UTF-8");
 			msg.setFrom(fromAddress);
 			String emailList[] = email.split(",");

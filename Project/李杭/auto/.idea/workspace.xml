@@ -46,13 +46,18 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\idea\auto\src\com\webtest\lhdemo" />
+      <recent name="D:\idea\auto\data" />
+      <recent name="D:\idea\auto\tempalte" />
       <recent name="D:\idea\auto\libs" />
       <recent name="D:\idea\auto\src" />
-      <recent name="D:\idea\auto\data" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\idea\auto\tempalte\test_report_template" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.Admin_Login">
-    <configuration name="Admin_Login" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.Section_Management">
+    <configuration name="ChanDaoDemo.testAdd" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="auto" />
       <extension name="coverage">
         <pattern>
@@ -61,7 +66,25 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.webtest.demo" />
-      <option name="MAIN_CLASS_NAME" value="com.webtest.demo.Admin_Login" />
+      <option name="MAIN_CLASS_NAME" value="com.webtest.demo.ChanDaoDemo" />
+      <option name="METHOD_NAME" value="testAdd" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Point_Management" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="auto" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.webtest.lhdemo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.webtest.lhdemo" />
+      <option name="MAIN_CLASS_NAME" value="com.webtest.lhdemo.Point_Management" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -69,17 +92,34 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Admin_Login.testLogin1" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="Section_Management" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="auto" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.webtest.demo.*" />
+          <option name="PATTERN" value="com.webtest.lhdemo.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.webtest.demo" />
-      <option name="MAIN_CLASS_NAME" value="com.webtest.demo.Admin_Login" />
-      <option name="METHOD_NAME" value="testLogin1" />
+      <option name="PACKAGE_NAME" value="com.webtest.lhdemo" />
+      <option name="MAIN_CLASS_NAME" value="com.webtest.lhdemo.Section_Management" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Section_Management.test_New_Section_alias" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="auto" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.webtest.lhdemo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.webtest.lhdemo" />
+      <option name="MAIN_CLASS_NAME" value="com.webtest.lhdemo.Section_Management" />
+      <option name="METHOD_NAME" value="test_New_Section_alias" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -87,46 +127,18 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Admin_Login.testLogin2" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="Section_Management.test_New_Section_name" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="auto" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.webtest.demo.*" />
+          <option name="PATTERN" value="com.webtest.lhdemo.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.webtest.demo" />
-      <option name="MAIN_CLASS_NAME" value="com.webtest.demo.Admin_Login" />
-      <option name="METHOD_NAME" value="testLogin2" />
+      <option name="PACKAGE_NAME" value="com.webtest.lhdemo" />
+      <option name="MAIN_CLASS_NAME" value="com.webtest.lhdemo.Section_Management" />
+      <option name="METHOD_NAME" value="test_New_Section_name" />
       <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Admin_Login.test_Login" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="auto" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.webtest.demo.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.webtest.demo" />
-      <option name="MAIN_CLASS_NAME" value="com.webtest.demo.Admin_Login" />
-      <option name="METHOD_NAME" value="test_Login" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="D:/idea/auto/testng.xml" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="auto" />
-      <option name="SUITE_NAME" value="$PROJECT_DIR$/testng.xml" />
-      <option name="TEST_OBJECT" value="SUITE" />
       <properties />
       <listeners />
       <method v="2">
@@ -134,19 +146,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="TestNG.D:/idea/auto/testng.xml" />
-      <item itemvalue="TestNG.Admin_Login" />
-      <item itemvalue="TestNG.Admin_Login.test_Login" />
-      <item itemvalue="TestNG.Admin_Login.testLogin2" />
-      <item itemvalue="TestNG.Admin_Login.testLogin1" />
+      <item itemvalue="TestNG.ChanDaoDemo.testAdd" />
+      <item itemvalue="TestNG.Section_Management" />
+      <item itemvalue="TestNG.Point_Management" />
+      <item itemvalue="TestNG.Section_Management.test_New_Section_name" />
+      <item itemvalue="TestNG.Section_Management.test_New_Section_alias" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.Admin_Login" />
-        <item itemvalue="TestNG.Admin_Login.testLogin1" />
-        <item itemvalue="TestNG.Admin_Login.testLogin2" />
-        <item itemvalue="TestNG.Admin_Login.test_Login" />
-        <item itemvalue="TestNG.D:/idea/auto/testng.xml" />
+        <item itemvalue="TestNG.Section_Management" />
+        <item itemvalue="TestNG.Section_Management.test_New_Section_alias" />
+        <item itemvalue="TestNG.Section_Management.test_New_Section_name" />
+        <item itemvalue="TestNG.Point_Management" />
+        <item itemvalue="TestNG.ChanDaoDemo.testAdd" />
       </list>
     </recent_temporary>
   </component>
@@ -183,7 +195,17 @@
       <workItem from="1605752549067" duration="3140000" />
       <workItem from="1605778628113" duration="3779000" />
       <workItem from="1605871050949" duration="1187000" />
-      <workItem from="1606026021557" duration="8836000" />
+      <workItem from="1606026021557" duration="13833000" />
+      <workItem from="1606089805015" duration="13621000" />
+      <workItem from="1606211098523" duration="17000" />
+      <workItem from="1606211628244" duration="3266000" />
+      <workItem from="1606262963440" duration="892000" />
+      <workItem from="1606264000333" duration="15214000" />
+      <workItem from="1606285744649" duration="8910000" />
+      <workItem from="1606352581526" duration="2277000" />
+      <workItem from="1606386371211" duration="596000" />
+      <workItem from="1606437997230" duration="674000" />
+      <workItem from="1606460108161" duration="1325000" />
     </task>
     <servers />
   </component>
@@ -210,10 +232,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="513" y="47" key="#com.intellij.openapi.roots.ui.configuration.libraryEditor.LibraryEditorDialog/0.0.1366.728@0.0.1366.728" timestamp="1605699948872" />
-    <state x="413" y="113" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1605754475868">
+    <state x="413" y="113" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1606281269987">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="413" y="113" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.728@0.0.1366.728" timestamp="1605754475868" />
+    <state x="413" y="113" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.728@0.0.1366.728" timestamp="1606281269987" />
     <state x="298" y="121" key="#com.intellij.util.ui.classpath.ChooseLibrariesDialog" timestamp="1605701447062">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -222,26 +244,26 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="442" y="276" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1366.728@0.0.1366.728" timestamp="1605508244412" />
-    <state x="580" y="115" key="FileChooserDialogImpl" timestamp="1605754643466">
+    <state x="580" y="115" key="FileChooserDialogImpl" timestamp="1606441531360">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="580" y="115" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1605754643466" />
-    <state width="1323" height="192" key="GridCell.Tab.0.bottom" timestamp="1606044198356">
+    <state x="580" y="115" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1606441531360" />
+    <state width="1323" height="2" key="GridCell.Tab.0.bottom" timestamp="1606310151678">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="192" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1606044198356" />
-    <state width="1323" height="192" key="GridCell.Tab.0.center" timestamp="1606044198355">
+    <state width="1323" height="2" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1606310151678" />
+    <state width="1323" height="2" key="GridCell.Tab.0.center" timestamp="1606310151678">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="192" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1606044198355" />
-    <state width="1323" height="192" key="GridCell.Tab.0.left" timestamp="1606044198355">
+    <state width="1323" height="2" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1606310151678" />
+    <state width="1323" height="2" key="GridCell.Tab.0.left" timestamp="1606310151678">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="192" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1606044198355" />
-    <state width="1323" height="192" key="GridCell.Tab.0.right" timestamp="1606044198355">
+    <state width="1323" height="2" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1606310151678" />
+    <state width="1323" height="2" key="GridCell.Tab.0.right" timestamp="1606310151678">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="192" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1606044198355" />
+    <state width="1323" height="2" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1606310151678" />
     <state width="1323" height="223" key="GridCell.Tab.1.bottom" timestamp="1605681522273">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -266,10 +288,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="377" y="50" key="antBuildFilePropertiesDialogDimension/0.0.1366.728@0.0.1366.728" timestamp="1605688985251" />
-    <state x="375" y="191" key="com.intellij.ide.util.TipDialog" timestamp="1605872312827">
+    <state x="375" y="191" key="com.intellij.ide.util.TipDialog" timestamp="1606441447627">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="375" y="191" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1605872312827" />
+    <state x="375" y="191" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1606441447627" />
     <state x="381" y="264" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1605699546710">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -282,9 +304,9 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="339" y="162" key="run.anything.popup/0.0.1366.728@0.0.1366.728" timestamp="1605617089148" />
-    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1605688180249">
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1606047799742">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1605688180249" />
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1606047799742" />
   </component>
 </project>

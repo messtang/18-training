@@ -9,7 +9,7 @@
         <fileset dir="libs" includes="*.jar"/>
         <pathelement location="${dest}"/>
     </path>
-    <taskdef resource="testngtasks" classpath="libs/org.testng_7.jar"/>
+    <taskdef resource="testngtasks" classpath="libs/testng-7.1.0.jar"/>
 
     <target name="clean">
         <delete dir="${dest}"/>

@@ -1,14 +1,18 @@
-package com.webtest.demo;
+package com.webtest.lhdemo;
 
 import com.webtest.core.BaseTest;
 import com.webtest.utils.ReadProperties;
 import org.testng.Assert;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
+
 import java.io.IOException;
+
 import static org.testng.Assert.assertTrue;
+
 /*
 版块管理
+运行结果:40个test,通过31个,不通过9个
  */
 public class Section_Management extends BaseTest {
 
@@ -22,8 +26,8 @@ public class Section_Management extends BaseTest {
         assertTrue(webtest.isTextPresent("剑鱼论坛后台"));
     }
 
-    @Test(description = "版块名",
-            dataProviderClass = JDataProvider.class,dataProvider = "newSectionNameData")
+//    @Test(description = "版块名",
+//            dataProviderClass = JDataProvider.class,dataProvider = "newSectionNameData")
     public void test_New_Section_name(String section_name) throws InterruptedException {
         webtest.click("link=新建版块");
 //        版块名
@@ -35,8 +39,8 @@ public class Section_Management extends BaseTest {
         Assert.assertFalse(webtest.isElementPresent("class=jconfirm-title-c"));
     }
 
-    @Test(description = "版块别名",
-            dataProviderClass = JDataProvider.class,dataProvider = "newSectionAliasData")
+//    @Test(description = "版块别名",
+//            dataProviderClass = JDataProvider.class,dataProvider = "newSectionAliasData")
     public void test_New_Section_alias
             (String section_name,String section_alis) throws InterruptedException {
         webtest.click("link=新建版块");
@@ -143,56 +147,5 @@ public class Section_Management extends BaseTest {
         webtest.click("id=formsubmit");
     }
 
-
-
-
-
-    //    @Test(dataProviderClass = JDataProvider.class,dataProvider = "newSectionData",description = "新建版块_用户名输入有效性")
-//    public void test_New_Section_name
-//            (String section_name,String section_alis,String superior_section,
-//             String icon_html,String section_photo,String key_word,String section_desc) throws InterruptedException {
-//        webtest.click("link=新建版块");
-////        版块名
-//        webtest.type("name=sname",section_name);
-////        版块别名
-//        webtest.type("name=bieming",section_alis);
-////        作为上一级版块
-//        webtest.click("xpath=//button[@class='btn btn-light dropdown-toggle']");
-////        上一级版块
-//        webtest.click("link="+superior_section);
-////        是否用于菜单
-//        webtest.click("xpath=//label[@for='formenu']");
-//
-//        webtest.runJs("window.scrollTo(0,document.body.scrollHeight*0.2)");
-//        Thread.sleep(3000);
-////        图标
-//        webtest.type("name=icon",icon_html);
-//
-////       是否用于链接
-////        webtest.click("xpath=//label[@for='islink']");
-////???????
-////        webtest.type("xpath=//input[@placeholder='请输入链接地址']","123");
-//
-//
-////        版块图
-//        webtest.type("id=image",section_photo);
-////        是否用于模块
-//        webtest.runJs("window.scrollTo(0,document.body.scrollHeight*0.4)");
-//        Thread.sleep(3000);
-////        webtest.click("xpath=//label[@for='formodules']");
-////        用于模块时是否包含子版块
-////        webtest.click("xpath=//label[@for='subclasses']");
-////        是否设置为虚版块
-////        webtest.click("xpath=//label[@for='virtualblock']");
-//
-//
-////        关键字
-//        webtest.runJs("window.scrollTo(0,document.body.scrollHeight)");
-//        webtest.type("name=guanjianzi",key_word);
-////        版块描述
-//        webtest.type("name=description",section_desc);
-////        提交按钮
-//        webtest.click("id=formsubmit");
-//    }
 
 }

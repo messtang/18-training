@@ -28,7 +28,7 @@ public class ExcelDataProvider {
 		FileInputStream inputstream = new FileInputStream(file);
 		Workbook wbook = null;
 		String fileExtensionName = fileName.substring(fileName.indexOf("."));
-		System.out.println(fileExtensionName);
+//		System.out.println(fileExtensionName);
 		if (fileExtensionName.equals(".xlsx")) {
 			wbook = new XSSFWorkbook(inputstream);
 		

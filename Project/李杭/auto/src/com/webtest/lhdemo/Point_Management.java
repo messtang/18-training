@@ -1,14 +1,18 @@
-package com.webtest.demo;
+package com.webtest.lhdemo;
 
 import com.webtest.core.BaseTest;
 import com.webtest.utils.ReadProperties;
 import org.testng.Assert;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
+
 import java.io.IOException;
+
 import static org.testng.Assert.assertTrue;
+
 /*
 积分管理
+运行结果:14个test,通过9个,不通过5个
  */
 public class Point_Management extends BaseTest {
 

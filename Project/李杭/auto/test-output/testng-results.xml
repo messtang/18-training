@@ -1,85 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="s1" duration-ms="133977" started-at="2020-11-18T19:51:28 CST" finished-at="2020-11-18T19:53:42 CST">
+  <suite name="s1" duration-ms="37" started-at="2020-11-23T15:47:31 CST" finished-at="2020-11-23T15:47:31 CST">
     <groups>
     </groups>
-    <test name="test1" duration-ms="133977" started-at="2020-11-18T19:51:28 CST" finished-at="2020-11-18T19:53:42 CST">
-      <class name="com.webtest.demo.Admin_Login">
-        <test-method status="PASS" signature="doBeforeClass()[pri:0, instance:com.webtest.demo.Admin_Login@6d8a00e3]" name="doBeforeClass" is-config="true" duration-ms="69020" started-at="2020-11-18T19:51:28 CST" finished-at="2020-11-18T19:52:37 CST">
+    <test name="test1" duration-ms="37" started-at="2020-11-23T15:47:31 CST" finished-at="2020-11-23T15:47:31 CST">
+      <class name="com.webtest.demo.AntTest">
+        <test-method status="PASS" signature="test_ant()[pri:0, instance:com.webtest.demo.AntTest@6a024a67]" name="test_ant" duration-ms="3" started-at="2020-11-23T15:47:31 CST" finished-at="2020-11-23T15:47:31 CST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- doBeforeClass -->
-        <test-method status="PASS" signature="test_Login(java.lang.String, java.lang.String)[pri:0, instance:com.webtest.demo.Admin_Login@6d8a00e3]" name="test_Login" duration-ms="51817" started-at="2020-11-18T19:52:38 CST" data-provider="loginData" finished-at="2020-11-18T19:53:30 CST">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[admin]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[admin1234]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- test_Login -->
-        <test-method status="PASS" signature="test_Login(java.lang.String, java.lang.String)[pri:0, instance:com.webtest.demo.Admin_Login@6d8a00e3]" name="test_Login" duration-ms="3496" started-at="2020-11-18T19:53:30 CST" data-provider="loginData" finished-at="2020-11-18T19:53:33 CST">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[admin]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[admin1235]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- test_Login -->
-        <test-method status="PASS" signature="test_Login(java.lang.String, java.lang.String)[pri:0, instance:com.webtest.demo.Admin_Login@6d8a00e3]" name="test_Login" duration-ms="3250" started-at="2020-11-18T19:53:33 CST" data-provider="loginData" finished-at="2020-11-18T19:53:37 CST">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[admin]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[admin1236]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- test_Login -->
-        <test-method status="PASS" signature="test_Login(java.lang.String, java.lang.String)[pri:0, instance:com.webtest.demo.Admin_Login@6d8a00e3]" name="test_Login" duration-ms="3330" started-at="2020-11-18T19:53:37 CST" data-provider="loginData" finished-at="2020-11-18T19:53:40 CST">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[admin]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[admin1237]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- test_Login -->
-        <test-method status="PASS" signature="doAfterMethod()[pri:0, instance:com.webtest.demo.Admin_Login@6d8a00e3]" name="doAfterMethod" is-config="true" duration-ms="2367" started-at="2020-11-18T19:53:40 CST" finished-at="2020-11-18T19:53:42 CST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- doAfterMethod -->
-      </class> <!-- com.webtest.demo.Admin_Login -->
+        </test-method> <!-- test_ant -->
+      </class> <!-- com.webtest.demo.AntTest -->
     </test> <!-- test1 -->
   </suite> <!-- s1 -->
 </testng-results>

@@ -1,8 +1,10 @@
-package com.webtest.demo;
+package com.webtest.lhdemo;
 
 import com.webtest.dataprovider.ExcelDataProvider;
 import org.testng.annotations.DataProvider;
+
 import java.io.IOException;
+
 /*
 数据提供者DataProvider
  */
@@ -67,7 +69,7 @@ public class JDataProvider {
     @DataProvider(name="exchangePointData")
     public Object[][] ExchangePointDataProvider() throws IOException {
         return new ExcelDataProvider().
-                getTestDataByExcel("point-data.xlsx","Sheet3");
+                getTestDataByExcel("point-data.xlsx","exchangePoint");
 
     }
 

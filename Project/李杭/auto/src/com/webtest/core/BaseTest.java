@@ -28,7 +28,9 @@ import com.webtest.utils.ReadProperties;
  *
  */
 
-
+//第一种解决办法
+// 修改BaseTest:添加初始化浏览器2和关闭浏览器2的方法,分别设置为BeforeMethod和AfterMethod;
+// 在每个的单独的类里面,把登录设置为BeforeMethod
 public class BaseTest {
 
 	public  WebDriverEngine webtest;
@@ -44,7 +46,7 @@ public class BaseTest {
 		    String firefox_driver =ReadProperties.getPropertyValue("gecko_driver");
 			String firefox_path = ReadProperties.getPropertyValue("firefox_path");
 			System.setProperty("webdriver.gecko.driver", firefox_driver);
-//			System.setProperty("webdriver.firefox.bin", firefox_path);
+			System.setProperty("webdriver.firefox.bin", firefox_path);
 			driver = new FirefoxDriver();
 	
 			Log.info("Using Firefox");
@@ -70,10 +72,18 @@ public class BaseTest {
 	 *鎵撳紑娴忚鍣�
 	 * 
 	 */
-
-
-	@BeforeClass
+	@BeforeClass(enabled=false)
 	public void doBeforeClass() throws Exception {
+		driverType=ReadProperties.getPropertyValue("driverType");
+		driver = this.newWebDriver(driverType);
+		driver.manage().window().maximize();
+		Log.info(driverType);
+		webtest = new WebDriverEngine(driver);
+
+	}
+
+	@BeforeMethod
+	public void doBeforeClass_2() throws Exception {
 		driverType=ReadProperties.getPropertyValue("driverType");
 		driver = this.newWebDriver(driverType);
 		driver.manage().window().maximize();
@@ -89,8 +99,13 @@ public class BaseTest {
 			this.driver.quit();
 			}
 		Log.info("Quitted Browser");
+	}
 
-
+	@AfterMethod
+	public void doAfterMethod_2() {
+		if(this.driver != null){
+			this.driver.quit();
+		}
 	}
 	
 
@@ -101,7 +116,7 @@ public class BaseTest {
         return driver;
     }
 
-//	@BeforeSuite(description="设置监听器")
+	@BeforeSuite(description="设置监听器")
 	public void addListener(ITestContext context) {
 //		System.out.println("设置监听器");
 		TestRunner runnner = (TestRunner)context;
