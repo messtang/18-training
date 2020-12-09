@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [jianyutest]">
+  <listeners>
+    <listener class-name="com.webtest.core.WebTestListener"/>
+  </listeners>
+  <test thread-count="5" name="Logintest(failed)">
+    <classes>
+      <class name="com.webtest.demo.TestNewPost">
+        <methods>
+          <include name="textAreaStrikethrough_test" invocation-numbers="0"/>
+          <include name="textAreaColor_test" invocation-numbers="0"/>
+          <include name="textAlignLeft_test" invocation-numbers="0"/>
+          <include name="textOverstriking_test" invocation-numbers="0"/>
+          <include name="textAreaRetract_test" invocation-numbers="0"/>
+          <include name="textAreaFontsizeAndParagraph_test" invocation-numbers="0"/>
+          <include name="textAreaAdd_test" invocation-numbers="0"/>
+          <include name="IntegralPositiveInt_test" invocation-numbers="0"/>
+          <include name="textCancleRetract_test" invocation-numbers="0"/>
+          <include name="textrevocation_test" invocation-numbers="0"/>
+          <include name="IntegralChar_test" invocation-numbers="0"/>
+          <include name="textBias_test" invocation-numbers="0"/>
+          <include name="textAreaOverstriking_test" invocation-numbers="0"/>
+          <include name="textAreaJustify_test" invocation-numbers="0"/>
+          <include name="textParagraph_test" invocation-numbers="0"/>
+          <include name="textBackgroundColor_test" invocation-numbers="0"/>
+          <include name="textFont_test" invocation-numbers="0"/>
+          <include name="textJustify_test" invocation-numbers="0"/>
+          <include name="textAreaLinkError_test" invocation-numbers="0"/>
+          <include name="textAreaStrikethroughAndUnderline_test" invocation-numbers="0"/>
+          <include name="textAreaCancleLink_test" invocation-numbers="0"/>
+          <include name="textRetract_test" invocation-numbers="0"/>
+          <include name="textAlignCenter_test" invocation-numbers="0"/>
+          <include name="textCancleLink_test" invocation-numbers="0"/>
+          <include name="textAreaCancleRetract_test" invocation-numbers="0"/>
+          <include name="IntegralFloat_test" invocation-numbers="0"/>
+          <include name="textLinkError_test" invocation-numbers="0"/>
+          <include name="textStrikethrough_test" invocation-numbers="0"/>
+          <include name="textProcedureCode_test" invocation-numbers="0"/>
+          <include name="textAreaParagraph_test" invocation-numbers="0"/>
+          <include name="newPostSuccess_test" invocation-numbers="0"/>
+          <include name="textAreaBias_test" invocation-numbers="0"/>
+          <include name="textAreaAlignCenter_test" invocation-numbers="0"/>
+          <include name="textAreaAlignRight_test" invocation-numbers="0"/>
+          <include name="textFontsizeAndParagraph_test" invocation-numbers="0"/>
+          <include name="textAreaFontSize_test" invocation-numbers="0"/>
+          <include name="textAreaFont_test" invocation-numbers="0"/>
+          <include name="textColor_test" invocation-numbers="0"/>
+          <include name="withTheAttachment_test" invocation-numbers="0"/>
+          <include name="doBeforeClass"/>
+          <include name="addListener"/>
+          <include name="doAfterMethod"/>
+          <include name="textAreaUnderline_test" invocation-numbers="0"/>
+          <include name="textFontSize_test" invocation-numbers="0"/>
+          <include name="textAreaAlignLeft_test" invocation-numbers="0"/>
+          <include name="textAreaBackgroundColor_test" invocation-numbers="0"/>
+          <include name="textLink_test" invocation-numbers="0"/>
+          <include name="IntegralNegativeInt_test" invocation-numbers="0"/>
+          <include name="textAlignRight_test" invocation-numbers="0"/>
+          <include name="textStrikethroughAndUnderline_test" invocation-numbers="0"/>
+          <include name="textAreaLink_test" invocation-numbers="0"/>
+          <include name="textUnderline_test" invocation-numbers="0"/>
+          <include name="newPostFail_test"/>
+        </methods>
+      </class> <!-- com.webtest.demo.TestNewPost -->
+    </classes>
+  </test> <!-- Logintest(failed) -->
+</suite> <!-- Failed suite [jianyutest] -->

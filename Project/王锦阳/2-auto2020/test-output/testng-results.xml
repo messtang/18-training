@@ -1,0 +1,1315 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="50" passed="50">
+  <reporter-output>
+  </reporter-output>
+  <suite name="jianyutest" duration-ms="1662160" started-at="2020-12-09T08:57:13 CST" finished-at="2020-12-09T09:24:55 CST">
+    <groups>
+    </groups>
+    <test name="jytest" duration-ms="1662160" started-at="2020-12-09T08:57:13 CST" finished-at="2020-12-09T09:24:55 CST">
+      <class name="com.webtest.demo.TestNewPost">
+        <test-method status="PASS" signature="addListener(org.testng.ITestContext)[pri:0, instance:com.webtest.demo.TestNewPost@35a50a4c]" name="addListener" is-config="true" duration-ms="12" started-at="2020-12-09T08:57:13 CST" description="设置监听器" finished-at="2020-12-09T08:57:13 CST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@1ae23815]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addListener -->
+        <test-method status="PASS" signature="doBeforeClass()[pri:0, instance:com.webtest.demo.TestNewPost@35a50a4c]" name="doBeforeClass" is-config="true" duration-ms="29894" started-at="2020-12-09T08:57:13 CST" finished-at="2020-12-09T08:57:42 CST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doBeforeClass -->
+        <test-method status="PASS" signature="newPostSuccess_test(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:com.webtest.demo.TestNewPost@35a50a4c]" name="newPostSuccess_test" duration-ms="25840" started-at="2020-12-09T08:57:43 CST" data-provider="excel" finished-at="2020-12-09T08:58:09 CST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[新闻]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[原创]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[标题]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[baidu]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- newPostSuccess_test -->
+        <test-method status="PASS" signature="newPostFail_test()[pri:2, instance:com.webtest.demo.TestNewPost@35a50a4c]" name="newPostFail_test" duration-ms="9655" started-at="2020-12-09T08:58:09 CST" finished-at="2020-12-09T08:58:19 CST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- newPostFail_test -->
+        <test-method status="PASS" signature="withTheAttachment_test(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:3, instance:com.webtest.demo.TestNewPost@35a50a4c]" name="withTheAttachment_test" duration-ms="27289" started-at="2020-12-09T08:58:19 CST" data-provider="excel1" finished-at="2020-12-09T08:58:46 CST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[新闻]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[原创]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[标题]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[baidu]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[D:\\demo\\11.jpg]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- withTheAttachment_test -->
+        <test-method status="PASS" signature="IntegralPositiveInt_test(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:4, instance:com.webtest.demo.TestNewPost@35a50a4c]" name="IntegralPositiveInt_test" duration-ms="28567" started-at="2020-12-09T08:58:46 CST" data-provider="excel" finished-at="2020-12-09T08:59:15 CST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[新闻]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[原创]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[标题]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[baidu]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- IntegralPositiveInt_test -->
+        <test-method status="PASS" signature="IntegralNegativeInt_test(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:5, instance:com.webtest.demo.TestNewPost@35a50a4c]" name="IntegralNegativeInt_test" duration-ms="28739" started-at="2020-12-09T08:59:15 CST" data-provider="excel" finished-at="2020-12-09T08:59:44 CST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[新闻]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[原创]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[标题]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[baidu]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- IntegralNegativeInt_test -->
+        <test-method status="PASS" signature="IntegralFloat_test(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:6, instance:com.webtest.demo.TestNewPost@35a50a4c]" name="IntegralFloat_test" duration-ms="28540" started-at="2020-12-09T08:59:44 CST" data-provider="excel" finished-at="2020-12-09T09:00:12 CST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[新闻]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[原创]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[标题]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[baidu]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- IntegralFloat_test -->
+        <test-method status="PASS" signature="IntegralChar_test(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:7, instance:com.webtest.demo.TestNewPost@35a50a4c]" name="IntegralChar_test" duration-ms="28552" started-at="2020-12-09T09:00:12 CST" data-provider="excel" finished-at="2020-12-09T09:00:41 CST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[新闻]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[原创]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[标题]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[baidu]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- IntegralChar_test -->
+        <test-method status="PASS" signature="textOverstriking_test(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:8, instance:com.webtest.demo.TestNewPost@35a50a4c]" name="textOverstriking_test" duration-ms="28875" started-at="2020-12-09T09:00:41 CST" data-provider="excel" finished-at="2020-12-09T09:01:10 CST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[新闻]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[原创]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[标题]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[baidu]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- textOverstriking_test -->
+        <test-method status="PASS" signature="textBias_test(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:9, instance:com.webtest.demo.TestNewPost@35a50a4c]" name="textBias_test" duration-ms="28873" started-at="2020-12-09T09:01:10 CST" data-provider="excel" finished-at="2020-12-09T09:01:39 CST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[新闻]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[原创]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[标题]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[baidu]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- textBias_test -->
+        <test-method status="PASS" signature="textStrikethrough_test(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:10, instance:com.webtest.demo.TestNewPost@35a50a4c]" name="textStrikethrough_test" duration-ms="28874" started-at="2020-12-09T09:01:39 CST" data-provider="excel" finished-at="2020-12-09T09:02:07 CST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[新闻]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[原创]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[标题]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[baidu]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- textStrikethrough_test -->
+        <test-method status="PASS" signature="textUnderline_test(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:11, instance:com.webtest.demo.TestNewPost@35a50a4c]" name="textUnderline_test" duration-ms="28684" started-at="2020-12-09T09:02:07 CST" data-provider="excel" finished-at="2020-12-09T09:02:36 CST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[新闻]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[原创]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[标题]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[baidu]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- textUnderline_test -->
+        <test-method status="PASS" signature="textFontSize_test(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:12, instance:com.webtest.demo.TestNewPost@35a50a4c]" name="textFontSize_test" duration-ms="35313" started-at="2020-12-09T09:02:36 CST" data-provider="excel" finished-at="2020-12-09T09:03:11 CST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[新闻]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[原创]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[标题]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[baidu]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- textFontSize_test -->
+        <test-method status="PASS" signature="textFont_test(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:13, instance:com.webtest.demo.TestNewPost@35a50a4c]" name="textFont_test" duration-ms="32674" started-at="2020-12-09T09:03:11 CST" data-provider="excel" finished-at="2020-12-09T09:03:44 CST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[新闻]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[原创]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[标题]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[baidu]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- textFont_test -->
+        <test-method status="PASS" signature="textParagraph_test(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:14, instance:com.webtest.demo.TestNewPost@35a50a4c]" name="textParagraph_test" duration-ms="33472" started-at="2020-12-09T09:03:44 CST" data-provider="excel" finished-at="2020-12-09T09:04:18 CST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[新闻]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[原创]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[标题]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[baidu]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- textParagraph_test -->
+        <test-method status="PASS" signature="textStrikethroughAndUnderline_test(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:15, instance:com.webtest.demo.TestNewPost@35a50a4c]" name="textStrikethroughAndUnderline_test" duration-ms="32581" started-at="2020-12-09T09:04:18 CST" data-provider="excel" finished-at="2020-12-09T09:04:50 CST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[新闻]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[原创]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[标题]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[baidu]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- textStrikethroughAndUnderline_test -->
+        <test-method status="PASS" signature="textFontsizeAndParagraph_test(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:16, instance:com.webtest.demo.TestNewPost@35a50a4c]" name="textFontsizeAndParagraph_test" duration-ms="40087" started-at="2020-12-09T09:04:50 CST" data-provider="excel" finished-at="2020-12-09T09:05:30 CST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[新闻]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[原创]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[标题]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[baidu]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- textFontsizeAndParagraph_test -->
+        <test-method status="PASS" signature="textColor_test(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:17, instance:com.webtest.demo.TestNewPost@35a50a4c]" name="textColor_test" duration-ms="36302" started-at="2020-12-09T09:05:30 CST" data-provider="excel" finished-at="2020-12-09T09:06:07 CST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[新闻]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[原创]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[标题]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[baidu]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- textColor_test -->
+        <test-method status="PASS" signature="textBackgroundColor_test(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:18, instance:com.webtest.demo.TestNewPost@35a50a4c]" name="textBackgroundColor_test" duration-ms="36249" started-at="2020-12-09T09:06:07 CST" data-provider="excel" finished-at="2020-12-09T09:06:43 CST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[新闻]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[原创]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[标题]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[baidu]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- textBackgroundColor_test -->
+        <test-method status="PASS" signature="textAlignCenter_test(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:19, instance:com.webtest.demo.TestNewPost@35a50a4c]" name="textAlignCenter_test" duration-ms="28659" started-at="2020-12-09T09:06:43 CST" data-provider="excel" finished-at="2020-12-09T09:07:12 CST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[新闻]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[原创]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[标题]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[baidu]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- textAlignCenter_test -->
+        <test-method status="PASS" signature="textAlignLeft_test(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:20, instance:com.webtest.demo.TestNewPost@35a50a4c]" name="textAlignLeft_test" duration-ms="25799" started-at="2020-12-09T09:07:12 CST" data-provider="excel" finished-at="2020-12-09T09:07:37 CST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[新闻]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[原创]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[标题]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[baidu]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- textAlignLeft_test -->
+        <test-method status="PASS" signature="textAlignRight_test(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:21, instance:com.webtest.demo.TestNewPost@35a50a4c]" name="textAlignRight_test" duration-ms="28382" started-at="2020-12-09T09:07:37 CST" data-provider="excel" finished-at="2020-12-09T09:08:06 CST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[新闻]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[原创]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[标题]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[baidu]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- textAlignRight_test -->
+        <test-method status="PASS" signature="textJustify_test(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:22, instance:com.webtest.demo.TestNewPost@35a50a4c]" name="textJustify_test" duration-ms="28829" started-at="2020-12-09T09:08:06 CST" data-provider="excel" finished-at="2020-12-09T09:08:35 CST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[新闻]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[原创]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[标题]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[baidu]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- textJustify_test -->
+        <test-method status="PASS" signature="textRetract_test(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:23, instance:com.webtest.demo.TestNewPost@35a50a4c]" name="textRetract_test" duration-ms="28866" started-at="2020-12-09T09:08:35 CST" data-provider="excel" finished-at="2020-12-09T09:09:04 CST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[新闻]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[原创]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[标题]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[baidu]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- textRetract_test -->
+        <test-method status="PASS" signature="textCancleRetract_test(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:24, instance:com.webtest.demo.TestNewPost@35a50a4c]" name="textCancleRetract_test" duration-ms="32522" started-at="2020-12-09T09:09:04 CST" data-provider="excel" finished-at="2020-12-09T09:09:36 CST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[新闻]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[原创]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[标题]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[baidu]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- textCancleRetract_test -->
+        <test-method status="PASS" signature="textLink_test(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:25, instance:com.webtest.demo.TestNewPost@35a50a4c]" name="textLink_test" duration-ms="32604" started-at="2020-12-09T09:09:36 CST" data-provider="excel" finished-at="2020-12-09T09:10:09 CST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[新闻]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[原创]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[标题]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[baidu]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- textLink_test -->
+        <test-method status="PASS" signature="textCancleLink_test(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:26, instance:com.webtest.demo.TestNewPost@35a50a4c]" name="textCancleLink_test" duration-ms="36317" started-at="2020-12-09T09:10:09 CST" data-provider="excel" finished-at="2020-12-09T09:10:45 CST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[新闻]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[原创]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[标题]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[baidu]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- textCancleLink_test -->
+        <test-method status="PASS" signature="textLinkError_test(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:27, instance:com.webtest.demo.TestNewPost@35a50a4c]" name="textLinkError_test" duration-ms="32590" started-at="2020-12-09T09:10:45 CST" data-provider="excel" finished-at="2020-12-09T09:11:18 CST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[新闻]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[原创]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[标题]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[baidu]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- textLinkError_test -->
+        <test-method status="PASS" signature="textAreaAdd_test(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:28, instance:com.webtest.demo.TestNewPost@35a50a4c]" name="textAreaAdd_test" duration-ms="28829" started-at="2020-12-09T09:11:18 CST" data-provider="excel" finished-at="2020-12-09T09:11:47 CST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[新闻]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[原创]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[标题]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[baidu]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- textAreaAdd_test -->
+        <test-method status="PASS" signature="textrevocation_test(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:29, instance:com.webtest.demo.TestNewPost@35a50a4c]" name="textrevocation_test" duration-ms="36278" started-at="2020-12-09T09:11:47 CST" data-provider="excel" finished-at="2020-12-09T09:12:23 CST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[新闻]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[原创]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[标题]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[baidu]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- textrevocation_test -->
+        <test-method status="PASS" signature="textProcedureCode_test(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:30, instance:com.webtest.demo.TestNewPost@35a50a4c]" name="textProcedureCode_test" duration-ms="28868" started-at="2020-12-09T09:12:23 CST" data-provider="excel" finished-at="2020-12-09T09:12:52 CST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[新闻]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[原创]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[标题]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[baidu]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- textProcedureCode_test -->
+        <test-method status="PASS" signature="textAreaOverstriking_test(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:31, instance:com.webtest.demo.TestNewPost@35a50a4c]" name="textAreaOverstriking_test" duration-ms="32568" started-at="2020-12-09T09:12:52 CST" data-provider="excel" finished-at="2020-12-09T09:13:24 CST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[新闻]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[原创]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[标题]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[baidu]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- textAreaOverstriking_test -->
+        <test-method status="PASS" signature="textAreaBias_test(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:32, instance:com.webtest.demo.TestNewPost@35a50a4c]" name="textAreaBias_test" duration-ms="32585" started-at="2020-12-09T09:13:24 CST" data-provider="excel" finished-at="2020-12-09T09:13:57 CST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[新闻]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[原创]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[标题]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[baidu]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- textAreaBias_test -->
+        <test-method status="PASS" signature="textAreaStrikethrough_test(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:33, instance:com.webtest.demo.TestNewPost@35a50a4c]" name="textAreaStrikethrough_test" duration-ms="32631" started-at="2020-12-09T09:13:57 CST" data-provider="excel" finished-at="2020-12-09T09:14:30 CST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[新闻]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[原创]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[标题]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[baidu]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- textAreaStrikethrough_test -->
+        <test-method status="PASS" signature="textAreaUnderline_test(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:34, instance:com.webtest.demo.TestNewPost@35a50a4c]" name="textAreaUnderline_test" duration-ms="32535" started-at="2020-12-09T09:14:30 CST" data-provider="excel" finished-at="2020-12-09T09:15:02 CST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[新闻]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[原创]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[标题]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[baidu]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- textAreaUnderline_test -->
+        <test-method status="PASS" signature="textAreaFontSize_test(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:35, instance:com.webtest.demo.TestNewPost@35a50a4c]" name="textAreaFontSize_test" duration-ms="36309" started-at="2020-12-09T09:15:02 CST" data-provider="excel" finished-at="2020-12-09T09:15:38 CST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[新闻]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[原创]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[标题]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[baidu]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- textAreaFontSize_test -->
+        <test-method status="PASS" signature="textAreaFont_test(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:36, instance:com.webtest.demo.TestNewPost@35a50a4c]" name="textAreaFont_test" duration-ms="36276" started-at="2020-12-09T09:15:38 CST" data-provider="excel" finished-at="2020-12-09T09:16:15 CST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[新闻]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[原创]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[标题]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[baidu]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- textAreaFont_test -->
+        <test-method status="PASS" signature="textAreaParagraph_test(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:37, instance:com.webtest.demo.TestNewPost@35a50a4c]" name="textAreaParagraph_test" duration-ms="36268" started-at="2020-12-09T09:16:15 CST" data-provider="excel" finished-at="2020-12-09T09:16:51 CST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[新闻]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[原创]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[标题]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[baidu]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- textAreaParagraph_test -->
+        <test-method status="PASS" signature="textAreaStrikethroughAndUnderline_test(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:38, instance:com.webtest.demo.TestNewPost@35a50a4c]" name="textAreaStrikethroughAndUnderline_test" duration-ms="36262" started-at="2020-12-09T09:16:51 CST" data-provider="excel" finished-at="2020-12-09T09:17:27 CST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[新闻]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[原创]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[标题]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[baidu]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- textAreaStrikethroughAndUnderline_test -->
+        <test-method status="PASS" signature="textAreaFontsizeAndParagraph_test(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:39, instance:com.webtest.demo.TestNewPost@35a50a4c]" name="textAreaFontsizeAndParagraph_test" duration-ms="43727" started-at="2020-12-09T09:17:27 CST" data-provider="excel" finished-at="2020-12-09T09:18:11 CST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[新闻]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[原创]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[标题]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[baidu]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- textAreaFontsizeAndParagraph_test -->
+        <test-method status="PASS" signature="textAreaColor_test(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:40, instance:com.webtest.demo.TestNewPost@35a50a4c]" name="textAreaColor_test" duration-ms="39956" started-at="2020-12-09T09:18:11 CST" data-provider="excel" finished-at="2020-12-09T09:18:51 CST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[新闻]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[原创]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[标题]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[baidu]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- textAreaColor_test -->
+        <test-method status="PASS" signature="textAreaBackgroundColor_test(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:41, instance:com.webtest.demo.TestNewPost@35a50a4c]" name="textAreaBackgroundColor_test" duration-ms="39957" started-at="2020-12-09T09:18:51 CST" data-provider="excel" finished-at="2020-12-09T09:19:31 CST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[新闻]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[原创]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[标题]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[baidu]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- textAreaBackgroundColor_test -->
+        <test-method status="PASS" signature="textAreaAlignCenter_test(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:42, instance:com.webtest.demo.TestNewPost@35a50a4c]" name="textAreaAlignCenter_test" duration-ms="32615" started-at="2020-12-09T09:19:31 CST" data-provider="excel" finished-at="2020-12-09T09:20:04 CST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[新闻]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[原创]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[标题]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[baidu]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- textAreaAlignCenter_test -->
+        <test-method status="PASS" signature="textAreaAlignLeft_test(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:43, instance:com.webtest.demo.TestNewPost@35a50a4c]" name="textAreaAlignLeft_test" duration-ms="32670" started-at="2020-12-09T09:20:04 CST" data-provider="excel" finished-at="2020-12-09T09:20:36 CST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[新闻]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[原创]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[标题]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[baidu]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- textAreaAlignLeft_test -->
+        <test-method status="PASS" signature="textAreaAlignRight_test(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:44, instance:com.webtest.demo.TestNewPost@35a50a4c]" name="textAreaAlignRight_test" duration-ms="32531" started-at="2020-12-09T09:20:36 CST" data-provider="excel" finished-at="2020-12-09T09:21:09 CST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[新闻]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[原创]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[标题]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[baidu]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- textAreaAlignRight_test -->
+        <test-method status="PASS" signature="textAreaJustify_test(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:45, instance:com.webtest.demo.TestNewPost@35a50a4c]" name="textAreaJustify_test" duration-ms="32504" started-at="2020-12-09T09:21:09 CST" data-provider="excel" finished-at="2020-12-09T09:21:41 CST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[新闻]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[原创]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[标题]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[baidu]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- textAreaJustify_test -->
+        <test-method status="PASS" signature="textAreaRetract_test(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:46, instance:com.webtest.demo.TestNewPost@35a50a4c]" name="textAreaRetract_test" duration-ms="32549" started-at="2020-12-09T09:21:41 CST" data-provider="excel" finished-at="2020-12-09T09:22:14 CST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[新闻]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[原创]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[标题]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[baidu]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- textAreaRetract_test -->
+        <test-method status="PASS" signature="textAreaCancleRetract_test(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:47, instance:com.webtest.demo.TestNewPost@35a50a4c]" name="textAreaCancleRetract_test" duration-ms="36231" started-at="2020-12-09T09:22:14 CST" data-provider="excel" finished-at="2020-12-09T09:22:50 CST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[新闻]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[原创]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[标题]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[baidu]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- textAreaCancleRetract_test -->
+        <test-method status="PASS" signature="textAreaLink_test(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:48, instance:com.webtest.demo.TestNewPost@35a50a4c]" name="textAreaLink_test" duration-ms="36283" started-at="2020-12-09T09:22:50 CST" data-provider="excel" finished-at="2020-12-09T09:23:26 CST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[新闻]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[原创]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[标题]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[baidu]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- textAreaLink_test -->
+        <test-method status="PASS" signature="textAreaCancleLink_test(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:49, instance:com.webtest.demo.TestNewPost@35a50a4c]" name="textAreaCancleLink_test" duration-ms="40006" started-at="2020-12-09T09:23:26 CST" data-provider="excel" finished-at="2020-12-09T09:24:06 CST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[新闻]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[原创]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[标题]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[baidu]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- textAreaCancleLink_test -->
+        <test-method status="PASS" signature="textAreaLinkError_test(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:50, instance:com.webtest.demo.TestNewPost@35a50a4c]" name="textAreaLinkError_test" duration-ms="36263" started-at="2020-12-09T09:24:06 CST" data-provider="excel" finished-at="2020-12-09T09:24:43 CST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[新闻]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[原创]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[标题]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[baidu]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- textAreaLinkError_test -->
+        <test-method status="PASS" signature="doAfterMethod()[pri:0, instance:com.webtest.demo.TestNewPost@35a50a4c]" name="doAfterMethod" is-config="true" duration-ms="12022" started-at="2020-12-09T09:24:43 CST" finished-at="2020-12-09T09:24:55 CST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doAfterMethod -->
+      </class> <!-- com.webtest.demo.TestNewPost -->
+    </test> <!-- jytest -->
+  </suite> <!-- jianyutest -->
+</testng-results>

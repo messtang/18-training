@@ -1,0 +1,329 @@
+<html>
+<head>
+<title>TestNG:  Logintest</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Logintest</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>50/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Fri Nov 27 20:39:59 CST 2020</td>
+</tr>
+<tr><td>Total time:</td><td>1468 seconds (1468261 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.webtest.demo.TestNewPost.IntegralChar_test()'><b>IntegralChar_test</b><br>Test class: com.webtest.demo.TestNewPost<br>Parameters: 新闻, 原创, 标题, baidu</td>
+<td></td>
+<td>25</td>
+<td>com.webtest.demo.TestNewPost@614ddd49</td></tr>
+<tr>
+<td title='com.webtest.demo.TestNewPost.IntegralFloat_test()'><b>IntegralFloat_test</b><br>Test class: com.webtest.demo.TestNewPost<br>Parameters: 新闻, 原创, 标题, baidu</td>
+<td></td>
+<td>25</td>
+<td>com.webtest.demo.TestNewPost@614ddd49</td></tr>
+<tr>
+<td title='com.webtest.demo.TestNewPost.IntegralNegativeInt_test()'><b>IntegralNegativeInt_test</b><br>Test class: com.webtest.demo.TestNewPost<br>Parameters: 新闻, 原创, 标题, baidu</td>
+<td></td>
+<td>25</td>
+<td>com.webtest.demo.TestNewPost@614ddd49</td></tr>
+<tr>
+<td title='com.webtest.demo.TestNewPost.IntegralPositiveInt_test()'><b>IntegralPositiveInt_test</b><br>Test class: com.webtest.demo.TestNewPost<br>Parameters: 新闻, 原创, 标题, baidu</td>
+<td></td>
+<td>25</td>
+<td>com.webtest.demo.TestNewPost@614ddd49</td></tr>
+<tr>
+<td title='com.webtest.demo.TestNewPost.newPostFail_test()'><b>newPostFail_test</b><br>Test class: com.webtest.demo.TestNewPost</td>
+<td></td>
+<td>9</td>
+<td>com.webtest.demo.TestNewPost@614ddd49</td></tr>
+<tr>
+<td title='com.webtest.demo.TestNewPost.newPostSuccess_test()'><b>newPostSuccess_test</b><br>Test class: com.webtest.demo.TestNewPost<br>Parameters: 新闻, 原创, 标题, baidu</td>
+<td></td>
+<td>25</td>
+<td>com.webtest.demo.TestNewPost@614ddd49</td></tr>
+<tr>
+<td title='com.webtest.demo.TestNewPost.textAlignCenter_test()'><b>textAlignCenter_test</b><br>Test class: com.webtest.demo.TestNewPost<br>Parameters: 新闻, 原创, 标题, baidu</td>
+<td></td>
+<td>25</td>
+<td>com.webtest.demo.TestNewPost@614ddd49</td></tr>
+<tr>
+<td title='com.webtest.demo.TestNewPost.textAlignLeft_test()'><b>textAlignLeft_test</b><br>Test class: com.webtest.demo.TestNewPost<br>Parameters: 新闻, 原创, 标题, baidu</td>
+<td></td>
+<td>25</td>
+<td>com.webtest.demo.TestNewPost@614ddd49</td></tr>
+<tr>
+<td title='com.webtest.demo.TestNewPost.textAlignRight_test()'><b>textAlignRight_test</b><br>Test class: com.webtest.demo.TestNewPost<br>Parameters: 新闻, 原创, 标题, baidu</td>
+<td></td>
+<td>25</td>
+<td>com.webtest.demo.TestNewPost@614ddd49</td></tr>
+<tr>
+<td title='com.webtest.demo.TestNewPost.textAreaAdd_test()'><b>textAreaAdd_test</b><br>Test class: com.webtest.demo.TestNewPost<br>Parameters: 新闻, 原创, 标题, baidu</td>
+<td></td>
+<td>25</td>
+<td>com.webtest.demo.TestNewPost@614ddd49</td></tr>
+<tr>
+<td title='com.webtest.demo.TestNewPost.textAreaAlignCenter_test()'><b>textAreaAlignCenter_test</b><br>Test class: com.webtest.demo.TestNewPost<br>Parameters: 新闻, 原创, 标题, baidu</td>
+<td></td>
+<td>28</td>
+<td>com.webtest.demo.TestNewPost@614ddd49</td></tr>
+<tr>
+<td title='com.webtest.demo.TestNewPost.textAreaAlignLeft_test()'><b>textAreaAlignLeft_test</b><br>Test class: com.webtest.demo.TestNewPost<br>Parameters: 新闻, 原创, 标题, baidu</td>
+<td></td>
+<td>28</td>
+<td>com.webtest.demo.TestNewPost@614ddd49</td></tr>
+<tr>
+<td title='com.webtest.demo.TestNewPost.textAreaAlignRight_test()'><b>textAreaAlignRight_test</b><br>Test class: com.webtest.demo.TestNewPost<br>Parameters: 新闻, 原创, 标题, baidu</td>
+<td></td>
+<td>28</td>
+<td>com.webtest.demo.TestNewPost@614ddd49</td></tr>
+<tr>
+<td title='com.webtest.demo.TestNewPost.textAreaBackgroundColor_test()'><b>textAreaBackgroundColor_test</b><br>Test class: com.webtest.demo.TestNewPost<br>Parameters: 新闻, 原创, 标题, baidu</td>
+<td></td>
+<td>35</td>
+<td>com.webtest.demo.TestNewPost@614ddd49</td></tr>
+<tr>
+<td title='com.webtest.demo.TestNewPost.textAreaBias_test()'><b>textAreaBias_test</b><br>Test class: com.webtest.demo.TestNewPost<br>Parameters: 新闻, 原创, 标题, baidu</td>
+<td></td>
+<td>28</td>
+<td>com.webtest.demo.TestNewPost@614ddd49</td></tr>
+<tr>
+<td title='com.webtest.demo.TestNewPost.textAreaCancleLink_test()'><b>textAreaCancleLink_test</b><br>Test class: com.webtest.demo.TestNewPost<br>Parameters: 新闻, 原创, 标题, baidu</td>
+<td></td>
+<td>35</td>
+<td>com.webtest.demo.TestNewPost@614ddd49</td></tr>
+<tr>
+<td title='com.webtest.demo.TestNewPost.textAreaCancleRetract_test()'><b>textAreaCancleRetract_test</b><br>Test class: com.webtest.demo.TestNewPost<br>Parameters: 新闻, 原创, 标题, baidu</td>
+<td></td>
+<td>32</td>
+<td>com.webtest.demo.TestNewPost@614ddd49</td></tr>
+<tr>
+<td title='com.webtest.demo.TestNewPost.textAreaColor_test()'><b>textAreaColor_test</b><br>Test class: com.webtest.demo.TestNewPost<br>Parameters: 新闻, 原创, 标题, baidu</td>
+<td></td>
+<td>35</td>
+<td>com.webtest.demo.TestNewPost@614ddd49</td></tr>
+<tr>
+<td title='com.webtest.demo.TestNewPost.textAreaFontSize_test()'><b>textAreaFontSize_test</b><br>Test class: com.webtest.demo.TestNewPost<br>Parameters: 新闻, 原创, 标题, baidu</td>
+<td></td>
+<td>32</td>
+<td>com.webtest.demo.TestNewPost@614ddd49</td></tr>
+<tr>
+<td title='com.webtest.demo.TestNewPost.textAreaFont_test()'><b>textAreaFont_test</b><br>Test class: com.webtest.demo.TestNewPost<br>Parameters: 新闻, 原创, 标题, baidu</td>
+<td></td>
+<td>32</td>
+<td>com.webtest.demo.TestNewPost@614ddd49</td></tr>
+<tr>
+<td title='com.webtest.demo.TestNewPost.textAreaFontsizeAndParagraph_test()'><b>textAreaFontsizeAndParagraph_test</b><br>Test class: com.webtest.demo.TestNewPost<br>Parameters: 新闻, 原创, 标题, baidu</td>
+<td></td>
+<td>38</td>
+<td>com.webtest.demo.TestNewPost@614ddd49</td></tr>
+<tr>
+<td title='com.webtest.demo.TestNewPost.textAreaJustify_test()'><b>textAreaJustify_test</b><br>Test class: com.webtest.demo.TestNewPost<br>Parameters: 新闻, 原创, 标题, baidu</td>
+<td></td>
+<td>28</td>
+<td>com.webtest.demo.TestNewPost@614ddd49</td></tr>
+<tr>
+<td title='com.webtest.demo.TestNewPost.textAreaLinkError_test()'><b>textAreaLinkError_test</b><br>Test class: com.webtest.demo.TestNewPost<br>Parameters: 新闻, 原创, 标题, baidu</td>
+<td></td>
+<td>32</td>
+<td>com.webtest.demo.TestNewPost@614ddd49</td></tr>
+<tr>
+<td title='com.webtest.demo.TestNewPost.textAreaLink_test()'><b>textAreaLink_test</b><br>Test class: com.webtest.demo.TestNewPost<br>Parameters: 新闻, 原创, 标题, baidu</td>
+<td></td>
+<td>32</td>
+<td>com.webtest.demo.TestNewPost@614ddd49</td></tr>
+<tr>
+<td title='com.webtest.demo.TestNewPost.textAreaOverstriking_test()'><b>textAreaOverstriking_test</b><br>Test class: com.webtest.demo.TestNewPost<br>Parameters: 新闻, 原创, 标题, baidu</td>
+<td></td>
+<td>28</td>
+<td>com.webtest.demo.TestNewPost@614ddd49</td></tr>
+<tr>
+<td title='com.webtest.demo.TestNewPost.textAreaParagraph_test()'><b>textAreaParagraph_test</b><br>Test class: com.webtest.demo.TestNewPost<br>Parameters: 新闻, 原创, 标题, baidu</td>
+<td></td>
+<td>32</td>
+<td>com.webtest.demo.TestNewPost@614ddd49</td></tr>
+<tr>
+<td title='com.webtest.demo.TestNewPost.textAreaRetract_test()'><b>textAreaRetract_test</b><br>Test class: com.webtest.demo.TestNewPost<br>Parameters: 新闻, 原创, 标题, baidu</td>
+<td></td>
+<td>28</td>
+<td>com.webtest.demo.TestNewPost@614ddd49</td></tr>
+<tr>
+<td title='com.webtest.demo.TestNewPost.textAreaStrikethroughAndUnderline_test()'><b>textAreaStrikethroughAndUnderline_test</b><br>Test class: com.webtest.demo.TestNewPost<br>Parameters: 新闻, 原创, 标题, baidu</td>
+<td></td>
+<td>32</td>
+<td>com.webtest.demo.TestNewPost@614ddd49</td></tr>
+<tr>
+<td title='com.webtest.demo.TestNewPost.textAreaStrikethrough_test()'><b>textAreaStrikethrough_test</b><br>Test class: com.webtest.demo.TestNewPost<br>Parameters: 新闻, 原创, 标题, baidu</td>
+<td></td>
+<td>28</td>
+<td>com.webtest.demo.TestNewPost@614ddd49</td></tr>
+<tr>
+<td title='com.webtest.demo.TestNewPost.textAreaUnderline_test()'><b>textAreaUnderline_test</b><br>Test class: com.webtest.demo.TestNewPost<br>Parameters: 新闻, 原创, 标题, baidu</td>
+<td></td>
+<td>28</td>
+<td>com.webtest.demo.TestNewPost@614ddd49</td></tr>
+<tr>
+<td title='com.webtest.demo.TestNewPost.textBackgroundColor_test()'><b>textBackgroundColor_test</b><br>Test class: com.webtest.demo.TestNewPost<br>Parameters: 新闻, 原创, 标题, baidu</td>
+<td></td>
+<td>32</td>
+<td>com.webtest.demo.TestNewPost@614ddd49</td></tr>
+<tr>
+<td title='com.webtest.demo.TestNewPost.textBias_test()'><b>textBias_test</b><br>Test class: com.webtest.demo.TestNewPost<br>Parameters: 新闻, 原创, 标题, baidu</td>
+<td></td>
+<td>25</td>
+<td>com.webtest.demo.TestNewPost@614ddd49</td></tr>
+<tr>
+<td title='com.webtest.demo.TestNewPost.textCancleLink_test()'><b>textCancleLink_test</b><br>Test class: com.webtest.demo.TestNewPost<br>Parameters: 新闻, 原创, 标题, baidu</td>
+<td></td>
+<td>32</td>
+<td>com.webtest.demo.TestNewPost@614ddd49</td></tr>
+<tr>
+<td title='com.webtest.demo.TestNewPost.textCancleRetract_test()'><b>textCancleRetract_test</b><br>Test class: com.webtest.demo.TestNewPost<br>Parameters: 新闻, 原创, 标题, baidu</td>
+<td></td>
+<td>28</td>
+<td>com.webtest.demo.TestNewPost@614ddd49</td></tr>
+<tr>
+<td title='com.webtest.demo.TestNewPost.textColor_test()'><b>textColor_test</b><br>Test class: com.webtest.demo.TestNewPost<br>Parameters: 新闻, 原创, 标题, baidu</td>
+<td></td>
+<td>32</td>
+<td>com.webtest.demo.TestNewPost@614ddd49</td></tr>
+<tr>
+<td title='com.webtest.demo.TestNewPost.textFontSize_test()'><b>textFontSize_test</b><br>Test class: com.webtest.demo.TestNewPost<br>Parameters: 新闻, 原创, 标题, baidu</td>
+<td></td>
+<td>28</td>
+<td>com.webtest.demo.TestNewPost@614ddd49</td></tr>
+<tr>
+<td title='com.webtest.demo.TestNewPost.textFont_test()'><b>textFont_test</b><br>Test class: com.webtest.demo.TestNewPost<br>Parameters: 新闻, 原创, 标题, baidu</td>
+<td></td>
+<td>28</td>
+<td>com.webtest.demo.TestNewPost@614ddd49</td></tr>
+<tr>
+<td title='com.webtest.demo.TestNewPost.textFontsizeAndParagraph_test()'><b>textFontsizeAndParagraph_test</b><br>Test class: com.webtest.demo.TestNewPost<br>Parameters: 新闻, 原创, 标题, baidu</td>
+<td></td>
+<td>35</td>
+<td>com.webtest.demo.TestNewPost@614ddd49</td></tr>
+<tr>
+<td title='com.webtest.demo.TestNewPost.textJustify_test()'><b>textJustify_test</b><br>Test class: com.webtest.demo.TestNewPost<br>Parameters: 新闻, 原创, 标题, baidu</td>
+<td></td>
+<td>25</td>
+<td>com.webtest.demo.TestNewPost@614ddd49</td></tr>
+<tr>
+<td title='com.webtest.demo.TestNewPost.textLinkError_test()'><b>textLinkError_test</b><br>Test class: com.webtest.demo.TestNewPost<br>Parameters: 新闻, 原创, 标题, baidu</td>
+<td></td>
+<td>28</td>
+<td>com.webtest.demo.TestNewPost@614ddd49</td></tr>
+<tr>
+<td title='com.webtest.demo.TestNewPost.textLink_test()'><b>textLink_test</b><br>Test class: com.webtest.demo.TestNewPost<br>Parameters: 新闻, 原创, 标题, baidu</td>
+<td></td>
+<td>28</td>
+<td>com.webtest.demo.TestNewPost@614ddd49</td></tr>
+<tr>
+<td title='com.webtest.demo.TestNewPost.textOverstriking_test()'><b>textOverstriking_test</b><br>Test class: com.webtest.demo.TestNewPost<br>Parameters: 新闻, 原创, 标题, baidu</td>
+<td></td>
+<td>25</td>
+<td>com.webtest.demo.TestNewPost@614ddd49</td></tr>
+<tr>
+<td title='com.webtest.demo.TestNewPost.textParagraph_test()'><b>textParagraph_test</b><br>Test class: com.webtest.demo.TestNewPost<br>Parameters: 新闻, 原创, 标题, baidu</td>
+<td></td>
+<td>28</td>
+<td>com.webtest.demo.TestNewPost@614ddd49</td></tr>
+<tr>
+<td title='com.webtest.demo.TestNewPost.textProcedureCode_test()'><b>textProcedureCode_test</b><br>Test class: com.webtest.demo.TestNewPost<br>Parameters: 新闻, 原创, 标题, baidu</td>
+<td></td>
+<td>25</td>
+<td>com.webtest.demo.TestNewPost@614ddd49</td></tr>
+<tr>
+<td title='com.webtest.demo.TestNewPost.textRetract_test()'><b>textRetract_test</b><br>Test class: com.webtest.demo.TestNewPost<br>Parameters: 新闻, 原创, 标题, baidu</td>
+<td></td>
+<td>25</td>
+<td>com.webtest.demo.TestNewPost@614ddd49</td></tr>
+<tr>
+<td title='com.webtest.demo.TestNewPost.textStrikethroughAndUnderline_test()'><b>textStrikethroughAndUnderline_test</b><br>Test class: com.webtest.demo.TestNewPost<br>Parameters: 新闻, 原创, 标题, baidu</td>
+<td></td>
+<td>28</td>
+<td>com.webtest.demo.TestNewPost@614ddd49</td></tr>
+<tr>
+<td title='com.webtest.demo.TestNewPost.textStrikethrough_test()'><b>textStrikethrough_test</b><br>Test class: com.webtest.demo.TestNewPost<br>Parameters: 新闻, 原创, 标题, baidu</td>
+<td></td>
+<td>25</td>
+<td>com.webtest.demo.TestNewPost@614ddd49</td></tr>
+<tr>
+<td title='com.webtest.demo.TestNewPost.textUnderline_test()'><b>textUnderline_test</b><br>Test class: com.webtest.demo.TestNewPost<br>Parameters: 新闻, 原创, 标题, baidu</td>
+<td></td>
+<td>25</td>
+<td>com.webtest.demo.TestNewPost@614ddd49</td></tr>
+<tr>
+<td title='com.webtest.demo.TestNewPost.textrevocation_test()'><b>textrevocation_test</b><br>Test class: com.webtest.demo.TestNewPost<br>Parameters: 新闻, 原创, 标题, baidu</td>
+<td></td>
+<td>32</td>
+<td>com.webtest.demo.TestNewPost@614ddd49</td></tr>
+<tr>
+<td title='com.webtest.demo.TestNewPost.withTheAttachment_test()'><b>withTheAttachment_test</b><br>Test class: com.webtest.demo.TestNewPost<br>Parameters: 新闻, 原创, 标题, baidu, D:\\demo\\11.jpg</td>
+<td></td>
+<td>25</td>
+<td>com.webtest.demo.TestNewPost@614ddd49</td></tr>
+</table><p>
+</body>
+</html>

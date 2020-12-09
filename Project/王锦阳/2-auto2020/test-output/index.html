@@ -1,0 +1,1280 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery-3.4.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button class="button" id="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-jianyutest">
+              <span class="suite-name border-passed">jianyutest</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-jianyutest">
+                    <span>D:\java\workplace\auto2020\reportng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-jianyutest">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-jianyutest">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-jianyutest">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-jianyutest">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-jianyutest">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-jianyutest">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">50 methods,   50 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-jianyutest" class="hide-methods passed suite-jianyutest"> (hide)</a> <!-- hide-methods passed suite-jianyutest -->
+                      <a href="#" panel-name="suite-jianyutest" class="show-methods passed suite-jianyutest"> (show)</a> <!-- show-methods passed suite-jianyutest -->
+                    </span>
+                    <div class="method-list-content passed suite-jianyutest">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-jianyutest" title="com.webtest.demo.TestNewPost" hash-for-method="IntegralChar_test(新闻, 原创, 标题, baidu)">IntegralChar_test(新闻, 原创, 标题, baidu)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-jianyutest" title="com.webtest.demo.TestNewPost" hash-for-method="IntegralFloat_test(新闻, 原创, 标题, baidu)">IntegralFloat_test(新闻, 原创, 标题, baidu)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-jianyutest" title="com.webtest.demo.TestNewPost" hash-for-method="IntegralNegativeInt_test(新闻, 原创, 标题, baidu)">IntegralNegativeInt_test(新闻, 原创, 标题, baidu)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-jianyutest" title="com.webtest.demo.TestNewPost" hash-for-method="IntegralPositiveInt_test(新闻, 原创, 标题, baidu)">IntegralPositiveInt_test(新闻, 原创, 标题, baidu)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-jianyutest" title="com.webtest.demo.TestNewPost" hash-for-method="newPostFail_test">newPostFail_test</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-jianyutest" title="com.webtest.demo.TestNewPost" hash-for-method="newPostSuccess_test(新闻, 原创, 标题, baidu)">newPostSuccess_test(新闻, 原创, 标题, baidu)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-jianyutest" title="com.webtest.demo.TestNewPost" hash-for-method="textAlignCenter_test(新闻, 原创, 标题, baidu)">textAlignCenter_test(新闻, 原创, 标题, baidu)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-jianyutest" title="com.webtest.demo.TestNewPost" hash-for-method="textAlignLeft_test(新闻, 原创, 标题, baidu)">textAlignLeft_test(新闻, 原创, 标题, baidu)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-jianyutest" title="com.webtest.demo.TestNewPost" hash-for-method="textAlignRight_test(新闻, 原创, 标题, baidu)">textAlignRight_test(新闻, 原创, 标题, baidu)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-jianyutest" title="com.webtest.demo.TestNewPost" hash-for-method="textAreaAdd_test(新闻, 原创, 标题, baidu)">textAreaAdd_test(新闻, 原创, 标题, baidu)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-jianyutest" title="com.webtest.demo.TestNewPost" hash-for-method="textAreaAlignCenter_test(新闻, 原创, 标题, baidu)">textAreaAlignCenter_test(新闻, 原创, 标题, baidu)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-jianyutest" title="com.webtest.demo.TestNewPost" hash-for-method="textAreaAlignLeft_test(新闻, 原创, 标题, baidu)">textAreaAlignLeft_test(新闻, 原创, 标题, baidu)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-jianyutest" title="com.webtest.demo.TestNewPost" hash-for-method="textAreaAlignRight_test(新闻, 原创, 标题, baidu)">textAreaAlignRight_test(新闻, 原创, 标题, baidu)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-jianyutest" title="com.webtest.demo.TestNewPost" hash-for-method="textAreaBackgroundColor_test(新闻, 原创, 标题, baidu)">textAreaBackgroundColor_test(新闻, 原创, 标题, baidu)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-jianyutest" title="com.webtest.demo.TestNewPost" hash-for-method="textAreaBias_test(新闻, 原创, 标题, baidu)">textAreaBias_test(新闻, 原创, 标题, baidu)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-jianyutest" title="com.webtest.demo.TestNewPost" hash-for-method="textAreaCancleLink_test(新闻, 原创, 标题, baidu)">textAreaCancleLink_test(新闻, 原创, 标题, baidu)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-jianyutest" title="com.webtest.demo.TestNewPost" hash-for-method="textAreaCancleRetract_test(新闻, 原创, 标题, baidu)">textAreaCancleRetract_test(新闻, 原创, 标题, baidu)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-jianyutest" title="com.webtest.demo.TestNewPost" hash-for-method="textAreaColor_test(新闻, 原创, 标题, baidu)">textAreaColor_test(新闻, 原创, 标题, baidu)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-jianyutest" title="com.webtest.demo.TestNewPost" hash-for-method="textAreaFontSize_test(新闻, 原创, 标题, baidu)">textAreaFontSize_test(新闻, 原创, 标题, baidu)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-jianyutest" title="com.webtest.demo.TestNewPost" hash-for-method="textAreaFont_test(新闻, 原创, 标题, baidu)">textAreaFont_test(新闻, 原创, 标题, baidu)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-jianyutest" title="com.webtest.demo.TestNewPost" hash-for-method="textAreaFontsizeAndParagraph_test(新闻, 原创, 标题, baidu)">textAreaFontsizeAndParagraph_test(新闻, 原创, 标题, baidu)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-jianyutest" title="com.webtest.demo.TestNewPost" hash-for-method="textAreaJustify_test(新闻, 原创, 标题, baidu)">textAreaJustify_test(新闻, 原创, 标题, baidu)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-jianyutest" title="com.webtest.demo.TestNewPost" hash-for-method="textAreaLinkError_test(新闻, 原创, 标题, baidu)">textAreaLinkError_test(新闻, 原创, 标题, baidu)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-jianyutest" title="com.webtest.demo.TestNewPost" hash-for-method="textAreaLink_test(新闻, 原创, 标题, baidu)">textAreaLink_test(新闻, 原创, 标题, baidu)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-jianyutest" title="com.webtest.demo.TestNewPost" hash-for-method="textAreaOverstriking_test(新闻, 原创, 标题, baidu)">textAreaOverstriking_test(新闻, 原创, 标题, baidu)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-jianyutest" title="com.webtest.demo.TestNewPost" hash-for-method="textAreaParagraph_test(新闻, 原创, 标题, baidu)">textAreaParagraph_test(新闻, 原创, 标题, baidu)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-jianyutest" title="com.webtest.demo.TestNewPost" hash-for-method="textAreaRetract_test(新闻, 原创, 标题, baidu)">textAreaRetract_test(新闻, 原创, 标题, baidu)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-jianyutest" title="com.webtest.demo.TestNewPost" hash-for-method="textAreaStrikethroughAndUnderline_test(新闻, 原创, 标题, baidu)">textAreaStrikethroughAndUnderline_test(新闻, 原创, 标题, baidu)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-jianyutest" title="com.webtest.demo.TestNewPost" hash-for-method="textAreaStrikethrough_test(新闻, 原创, 标题, baidu)">textAreaStrikethrough_test(新闻, 原创, 标题, baidu)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-jianyutest" title="com.webtest.demo.TestNewPost" hash-for-method="textAreaUnderline_test(新闻, 原创, 标题, baidu)">textAreaUnderline_test(新闻, 原创, 标题, baidu)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-jianyutest" title="com.webtest.demo.TestNewPost" hash-for-method="textBackgroundColor_test(新闻, 原创, 标题, baidu)">textBackgroundColor_test(新闻, 原创, 标题, baidu)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-jianyutest" title="com.webtest.demo.TestNewPost" hash-for-method="textBias_test(新闻, 原创, 标题, baidu)">textBias_test(新闻, 原创, 标题, baidu)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-jianyutest" title="com.webtest.demo.TestNewPost" hash-for-method="textCancleLink_test(新闻, 原创, 标题, baidu)">textCancleLink_test(新闻, 原创, 标题, baidu)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-jianyutest" title="com.webtest.demo.TestNewPost" hash-for-method="textCancleRetract_test(新闻, 原创, 标题, baidu)">textCancleRetract_test(新闻, 原创, 标题, baidu)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-jianyutest" title="com.webtest.demo.TestNewPost" hash-for-method="textColor_test(新闻, 原创, 标题, baidu)">textColor_test(新闻, 原创, 标题, baidu)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-jianyutest" title="com.webtest.demo.TestNewPost" hash-for-method="textFontSize_test(新闻, 原创, 标题, baidu)">textFontSize_test(新闻, 原创, 标题, baidu)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-jianyutest" title="com.webtest.demo.TestNewPost" hash-for-method="textFont_test(新闻, 原创, 标题, baidu)">textFont_test(新闻, 原创, 标题, baidu)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-jianyutest" title="com.webtest.demo.TestNewPost" hash-for-method="textFontsizeAndParagraph_test(新闻, 原创, 标题, baidu)">textFontsizeAndParagraph_test(新闻, 原创, 标题, baidu)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-jianyutest" title="com.webtest.demo.TestNewPost" hash-for-method="textJustify_test(新闻, 原创, 标题, baidu)">textJustify_test(新闻, 原创, 标题, baidu)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-jianyutest" title="com.webtest.demo.TestNewPost" hash-for-method="textLinkError_test(新闻, 原创, 标题, baidu)">textLinkError_test(新闻, 原创, 标题, baidu)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-jianyutest" title="com.webtest.demo.TestNewPost" hash-for-method="textLink_test(新闻, 原创, 标题, baidu)">textLink_test(新闻, 原创, 标题, baidu)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-jianyutest" title="com.webtest.demo.TestNewPost" hash-for-method="textOverstriking_test(新闻, 原创, 标题, baidu)">textOverstriking_test(新闻, 原创, 标题, baidu)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-jianyutest" title="com.webtest.demo.TestNewPost" hash-for-method="textParagraph_test(新闻, 原创, 标题, baidu)">textParagraph_test(新闻, 原创, 标题, baidu)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-jianyutest" title="com.webtest.demo.TestNewPost" hash-for-method="textProcedureCode_test(新闻, 原创, 标题, baidu)">textProcedureCode_test(新闻, 原创, 标题, baidu)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-jianyutest" title="com.webtest.demo.TestNewPost" hash-for-method="textRetract_test(新闻, 原创, 标题, baidu)">textRetract_test(新闻, 原创, 标题, baidu)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-jianyutest" title="com.webtest.demo.TestNewPost" hash-for-method="textStrikethroughAndUnderline_test(新闻, 原创, 标题, baidu)">textStrikethroughAndUnderline_test(新闻, 原创, 标题, baidu)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-jianyutest" title="com.webtest.demo.TestNewPost" hash-for-method="textStrikethrough_test(新闻, 原创, 标题, baidu)">textStrikethrough_test(新闻, 原创, 标题, baidu)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-jianyutest" title="com.webtest.demo.TestNewPost" hash-for-method="textUnderline_test(新闻, 原创, 标题, baidu)">textUnderline_test(新闻, 原创, 标题, baidu)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-jianyutest" title="com.webtest.demo.TestNewPost" hash-for-method="textrevocation_test(新闻, 原创, 标题, baidu)">textrevocation_test(新闻, 原创, 标题, baidu)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-jianyutest" title="com.webtest.demo.TestNewPost" hash-for-method="withTheAttachment_test(新闻, 原创, 标题, baidu, D:\\demo\\11.jpg)">withTheAttachment_test(新闻, 原创, 标题, baidu, D:\\demo\\11.jpg)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-jianyutest -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-jianyutest" class="panel jianyutest">
+          <div class="suite-jianyutest-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.webtest.demo.TestNewPost</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="IntegralChar_test(新闻, 原创, 标题, baidu)">
+                  </a> <!-- IntegralChar_test(新闻, 原创, 标题, baidu) -->
+                  <span class="method-name">IntegralChar_test</span>
+                  <span class="parameters">(新闻, 原创, 标题, baidu)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="IntegralFloat_test(新闻, 原创, 标题, baidu)">
+                  </a> <!-- IntegralFloat_test(新闻, 原创, 标题, baidu) -->
+                  <span class="method-name">IntegralFloat_test</span>
+                  <span class="parameters">(新闻, 原创, 标题, baidu)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="IntegralNegativeInt_test(新闻, 原创, 标题, baidu)">
+                  </a> <!-- IntegralNegativeInt_test(新闻, 原创, 标题, baidu) -->
+                  <span class="method-name">IntegralNegativeInt_test</span>
+                  <span class="parameters">(新闻, 原创, 标题, baidu)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="IntegralPositiveInt_test(新闻, 原创, 标题, baidu)">
+                  </a> <!-- IntegralPositiveInt_test(新闻, 原创, 标题, baidu) -->
+                  <span class="method-name">IntegralPositiveInt_test</span>
+                  <span class="parameters">(新闻, 原创, 标题, baidu)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="newPostFail_test">
+                  </a> <!-- newPostFail_test -->
+                  <span class="method-name">newPostFail_test</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="newPostSuccess_test(新闻, 原创, 标题, baidu)">
+                  </a> <!-- newPostSuccess_test(新闻, 原创, 标题, baidu) -->
+                  <span class="method-name">newPostSuccess_test</span>
+                  <span class="parameters">(新闻, 原创, 标题, baidu)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="textAlignCenter_test(新闻, 原创, 标题, baidu)">
+                  </a> <!-- textAlignCenter_test(新闻, 原创, 标题, baidu) -->
+                  <span class="method-name">textAlignCenter_test</span>
+                  <span class="parameters">(新闻, 原创, 标题, baidu)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="textAlignLeft_test(新闻, 原创, 标题, baidu)">
+                  </a> <!-- textAlignLeft_test(新闻, 原创, 标题, baidu) -->
+                  <span class="method-name">textAlignLeft_test</span>
+                  <span class="parameters">(新闻, 原创, 标题, baidu)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="textAlignRight_test(新闻, 原创, 标题, baidu)">
+                  </a> <!-- textAlignRight_test(新闻, 原创, 标题, baidu) -->
+                  <span class="method-name">textAlignRight_test</span>
+                  <span class="parameters">(新闻, 原创, 标题, baidu)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="textAreaAdd_test(新闻, 原创, 标题, baidu)">
+                  </a> <!-- textAreaAdd_test(新闻, 原创, 标题, baidu) -->
+                  <span class="method-name">textAreaAdd_test</span>
+                  <span class="parameters">(新闻, 原创, 标题, baidu)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="textAreaAlignCenter_test(新闻, 原创, 标题, baidu)">
+                  </a> <!-- textAreaAlignCenter_test(新闻, 原创, 标题, baidu) -->
+                  <span class="method-name">textAreaAlignCenter_test</span>
+                  <span class="parameters">(新闻, 原创, 标题, baidu)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="textAreaAlignLeft_test(新闻, 原创, 标题, baidu)">
+                  </a> <!-- textAreaAlignLeft_test(新闻, 原创, 标题, baidu) -->
+                  <span class="method-name">textAreaAlignLeft_test</span>
+                  <span class="parameters">(新闻, 原创, 标题, baidu)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="textAreaAlignRight_test(新闻, 原创, 标题, baidu)">
+                  </a> <!-- textAreaAlignRight_test(新闻, 原创, 标题, baidu) -->
+                  <span class="method-name">textAreaAlignRight_test</span>
+                  <span class="parameters">(新闻, 原创, 标题, baidu)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="textAreaBackgroundColor_test(新闻, 原创, 标题, baidu)">
+                  </a> <!-- textAreaBackgroundColor_test(新闻, 原创, 标题, baidu) -->
+                  <span class="method-name">textAreaBackgroundColor_test</span>
+                  <span class="parameters">(新闻, 原创, 标题, baidu)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="textAreaBias_test(新闻, 原创, 标题, baidu)">
+                  </a> <!-- textAreaBias_test(新闻, 原创, 标题, baidu) -->
+                  <span class="method-name">textAreaBias_test</span>
+                  <span class="parameters">(新闻, 原创, 标题, baidu)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="textAreaCancleLink_test(新闻, 原创, 标题, baidu)">
+                  </a> <!-- textAreaCancleLink_test(新闻, 原创, 标题, baidu) -->
+                  <span class="method-name">textAreaCancleLink_test</span>
+                  <span class="parameters">(新闻, 原创, 标题, baidu)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="textAreaCancleRetract_test(新闻, 原创, 标题, baidu)">
+                  </a> <!-- textAreaCancleRetract_test(新闻, 原创, 标题, baidu) -->
+                  <span class="method-name">textAreaCancleRetract_test</span>
+                  <span class="parameters">(新闻, 原创, 标题, baidu)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="textAreaColor_test(新闻, 原创, 标题, baidu)">
+                  </a> <!-- textAreaColor_test(新闻, 原创, 标题, baidu) -->
+                  <span class="method-name">textAreaColor_test</span>
+                  <span class="parameters">(新闻, 原创, 标题, baidu)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="textAreaFontSize_test(新闻, 原创, 标题, baidu)">
+                  </a> <!-- textAreaFontSize_test(新闻, 原创, 标题, baidu) -->
+                  <span class="method-name">textAreaFontSize_test</span>
+                  <span class="parameters">(新闻, 原创, 标题, baidu)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="textAreaFont_test(新闻, 原创, 标题, baidu)">
+                  </a> <!-- textAreaFont_test(新闻, 原创, 标题, baidu) -->
+                  <span class="method-name">textAreaFont_test</span>
+                  <span class="parameters">(新闻, 原创, 标题, baidu)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="textAreaFontsizeAndParagraph_test(新闻, 原创, 标题, baidu)">
+                  </a> <!-- textAreaFontsizeAndParagraph_test(新闻, 原创, 标题, baidu) -->
+                  <span class="method-name">textAreaFontsizeAndParagraph_test</span>
+                  <span class="parameters">(新闻, 原创, 标题, baidu)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="textAreaJustify_test(新闻, 原创, 标题, baidu)">
+                  </a> <!-- textAreaJustify_test(新闻, 原创, 标题, baidu) -->
+                  <span class="method-name">textAreaJustify_test</span>
+                  <span class="parameters">(新闻, 原创, 标题, baidu)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="textAreaLinkError_test(新闻, 原创, 标题, baidu)">
+                  </a> <!-- textAreaLinkError_test(新闻, 原创, 标题, baidu) -->
+                  <span class="method-name">textAreaLinkError_test</span>
+                  <span class="parameters">(新闻, 原创, 标题, baidu)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="textAreaLink_test(新闻, 原创, 标题, baidu)">
+                  </a> <!-- textAreaLink_test(新闻, 原创, 标题, baidu) -->
+                  <span class="method-name">textAreaLink_test</span>
+                  <span class="parameters">(新闻, 原创, 标题, baidu)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="textAreaOverstriking_test(新闻, 原创, 标题, baidu)">
+                  </a> <!-- textAreaOverstriking_test(新闻, 原创, 标题, baidu) -->
+                  <span class="method-name">textAreaOverstriking_test</span>
+                  <span class="parameters">(新闻, 原创, 标题, baidu)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="textAreaParagraph_test(新闻, 原创, 标题, baidu)">
+                  </a> <!-- textAreaParagraph_test(新闻, 原创, 标题, baidu) -->
+                  <span class="method-name">textAreaParagraph_test</span>
+                  <span class="parameters">(新闻, 原创, 标题, baidu)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="textAreaRetract_test(新闻, 原创, 标题, baidu)">
+                  </a> <!-- textAreaRetract_test(新闻, 原创, 标题, baidu) -->
+                  <span class="method-name">textAreaRetract_test</span>
+                  <span class="parameters">(新闻, 原创, 标题, baidu)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="textAreaStrikethroughAndUnderline_test(新闻, 原创, 标题, baidu)">
+                  </a> <!-- textAreaStrikethroughAndUnderline_test(新闻, 原创, 标题, baidu) -->
+                  <span class="method-name">textAreaStrikethroughAndUnderline_test</span>
+                  <span class="parameters">(新闻, 原创, 标题, baidu)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="textAreaStrikethrough_test(新闻, 原创, 标题, baidu)">
+                  </a> <!-- textAreaStrikethrough_test(新闻, 原创, 标题, baidu) -->
+                  <span class="method-name">textAreaStrikethrough_test</span>
+                  <span class="parameters">(新闻, 原创, 标题, baidu)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="textAreaUnderline_test(新闻, 原创, 标题, baidu)">
+                  </a> <!-- textAreaUnderline_test(新闻, 原创, 标题, baidu) -->
+                  <span class="method-name">textAreaUnderline_test</span>
+                  <span class="parameters">(新闻, 原创, 标题, baidu)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="textBackgroundColor_test(新闻, 原创, 标题, baidu)">
+                  </a> <!-- textBackgroundColor_test(新闻, 原创, 标题, baidu) -->
+                  <span class="method-name">textBackgroundColor_test</span>
+                  <span class="parameters">(新闻, 原创, 标题, baidu)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="textBias_test(新闻, 原创, 标题, baidu)">
+                  </a> <!-- textBias_test(新闻, 原创, 标题, baidu) -->
+                  <span class="method-name">textBias_test</span>
+                  <span class="parameters">(新闻, 原创, 标题, baidu)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="textCancleLink_test(新闻, 原创, 标题, baidu)">
+                  </a> <!-- textCancleLink_test(新闻, 原创, 标题, baidu) -->
+                  <span class="method-name">textCancleLink_test</span>
+                  <span class="parameters">(新闻, 原创, 标题, baidu)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="textCancleRetract_test(新闻, 原创, 标题, baidu)">
+                  </a> <!-- textCancleRetract_test(新闻, 原创, 标题, baidu) -->
+                  <span class="method-name">textCancleRetract_test</span>
+                  <span class="parameters">(新闻, 原创, 标题, baidu)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="textColor_test(新闻, 原创, 标题, baidu)">
+                  </a> <!-- textColor_test(新闻, 原创, 标题, baidu) -->
+                  <span class="method-name">textColor_test</span>
+                  <span class="parameters">(新闻, 原创, 标题, baidu)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="textFontSize_test(新闻, 原创, 标题, baidu)">
+                  </a> <!-- textFontSize_test(新闻, 原创, 标题, baidu) -->
+                  <span class="method-name">textFontSize_test</span>
+                  <span class="parameters">(新闻, 原创, 标题, baidu)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="textFont_test(新闻, 原创, 标题, baidu)">
+                  </a> <!-- textFont_test(新闻, 原创, 标题, baidu) -->
+                  <span class="method-name">textFont_test</span>
+                  <span class="parameters">(新闻, 原创, 标题, baidu)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="textFontsizeAndParagraph_test(新闻, 原创, 标题, baidu)">
+                  </a> <!-- textFontsizeAndParagraph_test(新闻, 原创, 标题, baidu) -->
+                  <span class="method-name">textFontsizeAndParagraph_test</span>
+                  <span class="parameters">(新闻, 原创, 标题, baidu)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="textJustify_test(新闻, 原创, 标题, baidu)">
+                  </a> <!-- textJustify_test(新闻, 原创, 标题, baidu) -->
+                  <span class="method-name">textJustify_test</span>
+                  <span class="parameters">(新闻, 原创, 标题, baidu)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="textLinkError_test(新闻, 原创, 标题, baidu)">
+                  </a> <!-- textLinkError_test(新闻, 原创, 标题, baidu) -->
+                  <span class="method-name">textLinkError_test</span>
+                  <span class="parameters">(新闻, 原创, 标题, baidu)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="textLink_test(新闻, 原创, 标题, baidu)">
+                  </a> <!-- textLink_test(新闻, 原创, 标题, baidu) -->
+                  <span class="method-name">textLink_test</span>
+                  <span class="parameters">(新闻, 原创, 标题, baidu)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="textOverstriking_test(新闻, 原创, 标题, baidu)">
+                  </a> <!-- textOverstriking_test(新闻, 原创, 标题, baidu) -->
+                  <span class="method-name">textOverstriking_test</span>
+                  <span class="parameters">(新闻, 原创, 标题, baidu)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="textParagraph_test(新闻, 原创, 标题, baidu)">
+                  </a> <!-- textParagraph_test(新闻, 原创, 标题, baidu) -->
+                  <span class="method-name">textParagraph_test</span>
+                  <span class="parameters">(新闻, 原创, 标题, baidu)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="textProcedureCode_test(新闻, 原创, 标题, baidu)">
+                  </a> <!-- textProcedureCode_test(新闻, 原创, 标题, baidu) -->
+                  <span class="method-name">textProcedureCode_test</span>
+                  <span class="parameters">(新闻, 原创, 标题, baidu)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="textRetract_test(新闻, 原创, 标题, baidu)">
+                  </a> <!-- textRetract_test(新闻, 原创, 标题, baidu) -->
+                  <span class="method-name">textRetract_test</span>
+                  <span class="parameters">(新闻, 原创, 标题, baidu)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="textStrikethroughAndUnderline_test(新闻, 原创, 标题, baidu)">
+                  </a> <!-- textStrikethroughAndUnderline_test(新闻, 原创, 标题, baidu) -->
+                  <span class="method-name">textStrikethroughAndUnderline_test</span>
+                  <span class="parameters">(新闻, 原创, 标题, baidu)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="textStrikethrough_test(新闻, 原创, 标题, baidu)">
+                  </a> <!-- textStrikethrough_test(新闻, 原创, 标题, baidu) -->
+                  <span class="method-name">textStrikethrough_test</span>
+                  <span class="parameters">(新闻, 原创, 标题, baidu)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="textUnderline_test(新闻, 原创, 标题, baidu)">
+                  </a> <!-- textUnderline_test(新闻, 原创, 标题, baidu) -->
+                  <span class="method-name">textUnderline_test</span>
+                  <span class="parameters">(新闻, 原创, 标题, baidu)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="textrevocation_test(新闻, 原创, 标题, baidu)">
+                  </a> <!-- textrevocation_test(新闻, 原创, 标题, baidu) -->
+                  <span class="method-name">textrevocation_test</span>
+                  <span class="parameters">(新闻, 原创, 标题, baidu)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="withTheAttachment_test(新闻, 原创, 标题, baidu, D:\\demo\\11.jpg)">
+                  </a> <!-- withTheAttachment_test(新闻, 原创, 标题, baidu, D:\\demo\\11.jpg) -->
+                  <span class="method-name">withTheAttachment_test</span>
+                  <span class="parameters">(新闻, 原创, 标题, baidu, D:\\demo\\11.jpg)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-jianyutest-class-passed -->
+        </div> <!-- panel jianyutest -->
+        <div panel-name="test-xml-jianyutest" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">D:\java\workplace\auto2020\reportng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite guice-stage=&quot;DEVELOPMENT&quot; name=&quot;jianyutest&quot;&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;org.uncommons.reportng.HTMLReporter&quot;/&gt;
+    &lt;listener class-name=&quot;org.uncommons.reportng.JUnitXMLReporter&quot;/&gt;
+  &lt;/listeners&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;jytest&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.webtest.demo.TestNewPost&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- jytest --&gt;
+&lt;/suite&gt; &lt;!-- jianyutest --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-jianyutest" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for jianyutest</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">jytest (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-jianyutest" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for jianyutest</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-jianyutest" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for jianyutest</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_jianyutest');
+function tableData_jianyutest() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(50);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'textAreaFontsizeAndParagraph_test')
+data.setCell(0, 2, 'com.webtest.demo.TestNewPost')
+data.setCell(0, 3, 43727);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'textFontsizeAndParagraph_test')
+data.setCell(1, 2, 'com.webtest.demo.TestNewPost')
+data.setCell(1, 3, 40087);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'textAreaCancleLink_test')
+data.setCell(2, 2, 'com.webtest.demo.TestNewPost')
+data.setCell(2, 3, 40006);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'textAreaBackgroundColor_test')
+data.setCell(3, 2, 'com.webtest.demo.TestNewPost')
+data.setCell(3, 3, 39957);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'textAreaColor_test')
+data.setCell(4, 2, 'com.webtest.demo.TestNewPost')
+data.setCell(4, 3, 39956);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'textCancleLink_test')
+data.setCell(5, 2, 'com.webtest.demo.TestNewPost')
+data.setCell(5, 3, 36317);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'textAreaFontSize_test')
+data.setCell(6, 2, 'com.webtest.demo.TestNewPost')
+data.setCell(6, 3, 36309);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'textColor_test')
+data.setCell(7, 2, 'com.webtest.demo.TestNewPost')
+data.setCell(7, 3, 36302);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'textAreaLink_test')
+data.setCell(8, 2, 'com.webtest.demo.TestNewPost')
+data.setCell(8, 3, 36283);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'textrevocation_test')
+data.setCell(9, 2, 'com.webtest.demo.TestNewPost')
+data.setCell(9, 3, 36278);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'textAreaFont_test')
+data.setCell(10, 2, 'com.webtest.demo.TestNewPost')
+data.setCell(10, 3, 36276);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'textAreaParagraph_test')
+data.setCell(11, 2, 'com.webtest.demo.TestNewPost')
+data.setCell(11, 3, 36268);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'textAreaLinkError_test')
+data.setCell(12, 2, 'com.webtest.demo.TestNewPost')
+data.setCell(12, 3, 36263);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'textAreaStrikethroughAndUnderline_test')
+data.setCell(13, 2, 'com.webtest.demo.TestNewPost')
+data.setCell(13, 3, 36262);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'textBackgroundColor_test')
+data.setCell(14, 2, 'com.webtest.demo.TestNewPost')
+data.setCell(14, 3, 36249);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'textAreaCancleRetract_test')
+data.setCell(15, 2, 'com.webtest.demo.TestNewPost')
+data.setCell(15, 3, 36231);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'textFontSize_test')
+data.setCell(16, 2, 'com.webtest.demo.TestNewPost')
+data.setCell(16, 3, 35313);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'textParagraph_test')
+data.setCell(17, 2, 'com.webtest.demo.TestNewPost')
+data.setCell(17, 3, 33472);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'textFont_test')
+data.setCell(18, 2, 'com.webtest.demo.TestNewPost')
+data.setCell(18, 3, 32674);
+data.setCell(19, 0, 19)
+data.setCell(19, 1, 'textAreaAlignLeft_test')
+data.setCell(19, 2, 'com.webtest.demo.TestNewPost')
+data.setCell(19, 3, 32670);
+data.setCell(20, 0, 20)
+data.setCell(20, 1, 'textAreaStrikethrough_test')
+data.setCell(20, 2, 'com.webtest.demo.TestNewPost')
+data.setCell(20, 3, 32631);
+data.setCell(21, 0, 21)
+data.setCell(21, 1, 'textAreaAlignCenter_test')
+data.setCell(21, 2, 'com.webtest.demo.TestNewPost')
+data.setCell(21, 3, 32615);
+data.setCell(22, 0, 22)
+data.setCell(22, 1, 'textLink_test')
+data.setCell(22, 2, 'com.webtest.demo.TestNewPost')
+data.setCell(22, 3, 32604);
+data.setCell(23, 0, 23)
+data.setCell(23, 1, 'textLinkError_test')
+data.setCell(23, 2, 'com.webtest.demo.TestNewPost')
+data.setCell(23, 3, 32590);
+data.setCell(24, 0, 24)
+data.setCell(24, 1, 'textAreaBias_test')
+data.setCell(24, 2, 'com.webtest.demo.TestNewPost')
+data.setCell(24, 3, 32585);
+data.setCell(25, 0, 25)
+data.setCell(25, 1, 'textStrikethroughAndUnderline_test')
+data.setCell(25, 2, 'com.webtest.demo.TestNewPost')
+data.setCell(25, 3, 32581);
+data.setCell(26, 0, 26)
+data.setCell(26, 1, 'textAreaOverstriking_test')
+data.setCell(26, 2, 'com.webtest.demo.TestNewPost')
+data.setCell(26, 3, 32568);
+data.setCell(27, 0, 27)
+data.setCell(27, 1, 'textAreaRetract_test')
+data.setCell(27, 2, 'com.webtest.demo.TestNewPost')
+data.setCell(27, 3, 32549);
+data.setCell(28, 0, 28)
+data.setCell(28, 1, 'textAreaUnderline_test')
+data.setCell(28, 2, 'com.webtest.demo.TestNewPost')
+data.setCell(28, 3, 32535);
+data.setCell(29, 0, 29)
+data.setCell(29, 1, 'textAreaAlignRight_test')
+data.setCell(29, 2, 'com.webtest.demo.TestNewPost')
+data.setCell(29, 3, 32531);
+data.setCell(30, 0, 30)
+data.setCell(30, 1, 'textCancleRetract_test')
+data.setCell(30, 2, 'com.webtest.demo.TestNewPost')
+data.setCell(30, 3, 32522);
+data.setCell(31, 0, 31)
+data.setCell(31, 1, 'textAreaJustify_test')
+data.setCell(31, 2, 'com.webtest.demo.TestNewPost')
+data.setCell(31, 3, 32504);
+data.setCell(32, 0, 32)
+data.setCell(32, 1, 'textOverstriking_test')
+data.setCell(32, 2, 'com.webtest.demo.TestNewPost')
+data.setCell(32, 3, 28875);
+data.setCell(33, 0, 33)
+data.setCell(33, 1, 'textStrikethrough_test')
+data.setCell(33, 2, 'com.webtest.demo.TestNewPost')
+data.setCell(33, 3, 28874);
+data.setCell(34, 0, 34)
+data.setCell(34, 1, 'textBias_test')
+data.setCell(34, 2, 'com.webtest.demo.TestNewPost')
+data.setCell(34, 3, 28873);
+data.setCell(35, 0, 35)
+data.setCell(35, 1, 'textProcedureCode_test')
+data.setCell(35, 2, 'com.webtest.demo.TestNewPost')
+data.setCell(35, 3, 28868);
+data.setCell(36, 0, 36)
+data.setCell(36, 1, 'textRetract_test')
+data.setCell(36, 2, 'com.webtest.demo.TestNewPost')
+data.setCell(36, 3, 28866);
+data.setCell(37, 0, 37)
+data.setCell(37, 1, 'textJustify_test')
+data.setCell(37, 2, 'com.webtest.demo.TestNewPost')
+data.setCell(37, 3, 28829);
+data.setCell(38, 0, 38)
+data.setCell(38, 1, 'textAreaAdd_test')
+data.setCell(38, 2, 'com.webtest.demo.TestNewPost')
+data.setCell(38, 3, 28829);
+data.setCell(39, 0, 39)
+data.setCell(39, 1, 'IntegralNegativeInt_test')
+data.setCell(39, 2, 'com.webtest.demo.TestNewPost')
+data.setCell(39, 3, 28739);
+data.setCell(40, 0, 40)
+data.setCell(40, 1, 'textUnderline_test')
+data.setCell(40, 2, 'com.webtest.demo.TestNewPost')
+data.setCell(40, 3, 28684);
+data.setCell(41, 0, 41)
+data.setCell(41, 1, 'textAlignCenter_test')
+data.setCell(41, 2, 'com.webtest.demo.TestNewPost')
+data.setCell(41, 3, 28659);
+data.setCell(42, 0, 42)
+data.setCell(42, 1, 'IntegralPositiveInt_test')
+data.setCell(42, 2, 'com.webtest.demo.TestNewPost')
+data.setCell(42, 3, 28567);
+data.setCell(43, 0, 43)
+data.setCell(43, 1, 'IntegralChar_test')
+data.setCell(43, 2, 'com.webtest.demo.TestNewPost')
+data.setCell(43, 3, 28552);
+data.setCell(44, 0, 44)
+data.setCell(44, 1, 'IntegralFloat_test')
+data.setCell(44, 2, 'com.webtest.demo.TestNewPost')
+data.setCell(44, 3, 28540);
+data.setCell(45, 0, 45)
+data.setCell(45, 1, 'textAlignRight_test')
+data.setCell(45, 2, 'com.webtest.demo.TestNewPost')
+data.setCell(45, 3, 28382);
+data.setCell(46, 0, 46)
+data.setCell(46, 1, 'withTheAttachment_test')
+data.setCell(46, 2, 'com.webtest.demo.TestNewPost')
+data.setCell(46, 3, 27289);
+data.setCell(47, 0, 47)
+data.setCell(47, 1, 'newPostSuccess_test')
+data.setCell(47, 2, 'com.webtest.demo.TestNewPost')
+data.setCell(47, 3, 25840);
+data.setCell(48, 0, 48)
+data.setCell(48, 1, 'textAlignLeft_test')
+data.setCell(48, 2, 'com.webtest.demo.TestNewPost')
+data.setCell(48, 3, 25799);
+data.setCell(49, 0, 49)
+data.setCell(49, 1, 'newPostFail_test')
+data.setCell(49, 2, 'com.webtest.demo.TestNewPost')
+data.setCell(49, 3, 9655);
+window.suiteTableData['jianyutest']= { tableData: data, tableDiv: 'times-div-jianyutest'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 26 minutes</span>
+              <div id="times-div-jianyutest">
+              </div> <!-- times-div-jianyutest -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-jianyutest" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for jianyutest</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-jianyutest" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-jianyutest" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.webtest.demo.TestNewPost</div> <!-- chronological-class-name -->
+              <div class="configuration-suite before">
+                <span class="method-name">addListener(org.testng.TestRunner@1ae23815)</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-suite before -->
+              <div class="configuration-class before">
+                <span class="method-name">doBeforeClass</span>
+                <span class="method-start">24 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">newPostSuccess_test(新闻, 原创, 标题, baidu)</span>
+                <span class="method-start">30753 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">newPostFail_test</span>
+                <span class="method-start">56659 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">withTheAttachment_test(新闻, 原创, 标题, baidu, D:\\demo\\11.jpg)</span>
+                <span class="method-start">66363 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">IntegralPositiveInt_test(新闻, 原创, 标题, baidu)</span>
+                <span class="method-start">93682 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">IntegralNegativeInt_test(新闻, 原创, 标题, baidu)</span>
+                <span class="method-start">122277 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">IntegralFloat_test(新闻, 原创, 标题, baidu)</span>
+                <span class="method-start">151039 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">IntegralChar_test(新闻, 原创, 标题, baidu)</span>
+                <span class="method-start">179598 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">textOverstriking_test(新闻, 原创, 标题, baidu)</span>
+                <span class="method-start">208171 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">textBias_test(新闻, 原创, 标题, baidu)</span>
+                <span class="method-start">237081 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">textStrikethrough_test(新闻, 原创, 标题, baidu)</span>
+                <span class="method-start">265973 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">textUnderline_test(新闻, 原创, 标题, baidu)</span>
+                <span class="method-start">294865 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">textFontSize_test(新闻, 原创, 标题, baidu)</span>
+                <span class="method-start">323568 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">textFont_test(新闻, 原创, 标题, baidu)</span>
+                <span class="method-start">358915 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">textParagraph_test(新闻, 原创, 标题, baidu)</span>
+                <span class="method-start">391613 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">textStrikethroughAndUnderline_test(新闻, 原创, 标题, baidu)</span>
+                <span class="method-start">425119 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">textFontsizeAndParagraph_test(新闻, 原创, 标题, baidu)</span>
+                <span class="method-start">457722 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">textColor_test(新闻, 原创, 标题, baidu)</span>
+                <span class="method-start">497825 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">textBackgroundColor_test(新闻, 原创, 标题, baidu)</span>
+                <span class="method-start">534146 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">textAlignCenter_test(新闻, 原创, 标题, baidu)</span>
+                <span class="method-start">570414 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">textAlignLeft_test(新闻, 原创, 标题, baidu)</span>
+                <span class="method-start">599090 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">textAlignRight_test(新闻, 原创, 标题, baidu)</span>
+                <span class="method-start">624907 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">textJustify_test(新闻, 原创, 标题, baidu)</span>
+                <span class="method-start">653309 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">textRetract_test(新闻, 原创, 标题, baidu)</span>
+                <span class="method-start">682156 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">textCancleRetract_test(新闻, 原创, 标题, baidu)</span>
+                <span class="method-start">711034 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">textLink_test(新闻, 原创, 标题, baidu)</span>
+                <span class="method-start">743567 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">textCancleLink_test(新闻, 原创, 标题, baidu)</span>
+                <span class="method-start">776189 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">textLinkError_test(新闻, 原创, 标题, baidu)</span>
+                <span class="method-start">812523 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">textAreaAdd_test(新闻, 原创, 标题, baidu)</span>
+                <span class="method-start">845131 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">textrevocation_test(新闻, 原创, 标题, baidu)</span>
+                <span class="method-start">873973 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">textProcedureCode_test(新闻, 原创, 标题, baidu)</span>
+                <span class="method-start">910268 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">textAreaOverstriking_test(新闻, 原创, 标题, baidu)</span>
+                <span class="method-start">939150 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">textAreaBias_test(新闻, 原创, 标题, baidu)</span>
+                <span class="method-start">971729 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">textAreaStrikethrough_test(新闻, 原创, 标题, baidu)</span>
+                <span class="method-start">1004332 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">textAreaUnderline_test(新闻, 原创, 标题, baidu)</span>
+                <span class="method-start">1036990 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">textAreaFontSize_test(新闻, 原创, 标题, baidu)</span>
+                <span class="method-start">1069537 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">textAreaFont_test(新闻, 原创, 标题, baidu)</span>
+                <span class="method-start">1105858 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">textAreaParagraph_test(新闻, 原创, 标题, baidu)</span>
+                <span class="method-start">1142144 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">textAreaStrikethroughAndUnderline_test(新闻, 原创, 标题, baidu)</span>
+                <span class="method-start">1178431 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">textAreaFontsizeAndParagraph_test(新闻, 原创, 标题, baidu)</span>
+                <span class="method-start">1214709 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">textAreaColor_test(新闻, 原创, 标题, baidu)</span>
+                <span class="method-start">1258457 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">textAreaBackgroundColor_test(新闻, 原创, 标题, baidu)</span>
+                <span class="method-start">1298423 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">textAreaAlignCenter_test(新闻, 原创, 标题, baidu)</span>
+                <span class="method-start">1338393 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">textAreaAlignLeft_test(新闻, 原创, 标题, baidu)</span>
+                <span class="method-start">1371023 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">textAreaAlignRight_test(新闻, 原创, 标题, baidu)</span>
+                <span class="method-start">1403706 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">textAreaJustify_test(新闻, 原创, 标题, baidu)</span>
+                <span class="method-start">1436247 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">textAreaRetract_test(新闻, 原创, 标题, baidu)</span>
+                <span class="method-start">1468760 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">textAreaCancleRetract_test(新闻, 原创, 标题, baidu)</span>
+                <span class="method-start">1501317 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">textAreaLink_test(新闻, 原创, 标题, baidu)</span>
+                <span class="method-start">1537561 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">textAreaCancleLink_test(新闻, 原创, 标题, baidu)</span>
+                <span class="method-start">1573854 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">textAreaLinkError_test(新闻, 原创, 标题, baidu)</span>
+                <span class="method-start">1613888 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">doAfterMethod</span>
+                <span class="method-start">1650151 ms</span>
+              </div> <!-- configuration-class after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>
