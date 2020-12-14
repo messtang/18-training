@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [s1]">
+  <listeners>
+    <listener class-name="com.webtest.core.WebTestListener"/>
+  </listeners>
+  <test thread-count="5" name="test1(failed)">
+    <classes>
+      <class name="com.webtest.ljjdemo.Sign_in_setting">
+        <methods>
+          <include name="test_Points_sign_in" invocation-numbers="2"/>
+          <include name="doAfterMethod"/>
+          <include name="login_to"/>
+          <include name="submitAndQuit"/>
+          <include name="doBeforeClass"/>
+          <include name="doAfterMethod_2"/>
+        </methods>
+      </class> <!-- com.webtest.ljjdemo.Sign_in_setting -->
+      <class name="com.webtest.ljjdemo.Friendship_link">
+        <methods>
+          <include name="test_friendship_link_add" invocation-numbers="0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15"/>
+          <include name="doAfterMethod"/>
+          <include name="login_to"/>
+          <include name="doBeforeClass"/>
+          <include name="doAfterMethod_2"/>
+          <include name="submitAndQuit"/>
+        </methods>
+      </class> <!-- com.webtest.ljjdemo.Friendship_link -->
+      <class name="com.webtest.ljjdemo.Level_setting">
+        <methods>
+          <include name="submitAndQuit"/>
+          <include name="test_level_description" invocation-numbers="0"/>
+          <include name="doAfterMethod"/>
+          <include name="test_required_growth_value" invocation-numbers="0 2 3"/>
+          <include name="login_to"/>
+          <include name="doBeforeClass"/>
+          <include name="doAfterMethod_2"/>
+        </methods>
+      </class> <!-- com.webtest.ljjdemo.Level_setting -->
+      <class name="com.webtest.ljjdemo.Growth_setting">
+        <methods>
+          <include name="test_integral" invocation-numbers="2 3"/>
+          <include name="login_to"/>
+          <include name="test_growth_value" invocation-numbers="2 3"/>
+          <include name="doAfterMethod"/>
+          <include name="submitAndQuit"/>
+          <include name="doBeforeClass"/>
+          <include name="doAfterMethod_2"/>
+        </methods>
+      </class> <!-- com.webtest.ljjdemo.Growth_setting -->
+    </classes>
+  </test> <!-- test1(failed) -->
+</suite> <!-- Failed suite [s1] -->

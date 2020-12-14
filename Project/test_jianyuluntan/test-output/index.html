@@ -1,0 +1,2675 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />
+    <script type="text/javascript" src="jquery-3.4.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite, 25 failed tests</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-s1">
+              <span class="suite-name border-failed">s1</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-s1">
+                    <span>C:\Users\Administrator.DESKTOP-H2NQ5S1\Desktop\test_jianyuluntan\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-s1">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-s1">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-s1">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-s1">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-s1">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-s1">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">50 methods, 25 failed,   25 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-s1" class="hide-methods failed suite-s1"> (hide)</a> <!-- hide-methods failed suite-s1 -->
+                      <a href="#" panel-name="suite-s1" class="show-methods failed suite-s1"> (show)</a> <!-- show-methods failed suite-s1 -->
+                    </span>
+                    <div class="method-list-content failed suite-s1">
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-s1" title="com.webtest.ljjdemo.Sign_in_setting" hash-for-method="test_Points_sign_in(1+2)">test_Points_sign_in(1+2)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-s1" title="com.webtest.ljjdemo.Friendship_link" hash-for-method="test_friendship_link_add(123, baidu.com)">test_friendship_link_add(123, baidu.com)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-s1" title="com.webtest.ljjdemo.Friendship_link" hash-for-method="test_friendship_link_add(百度, www.baidu,com)">test_friendship_link_add(百度, www.baidu,com)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-s1" title="com.webtest.ljjdemo.Friendship_link" hash-for-method="test_friendship_link_add(哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈...)">test_friendship_link_add(哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-s1" title="com.webtest.ljjdemo.Friendship_link" hash-for-method="test_friendship_link_add(123, https://baidu.com)">test_friendship_link_add(123, https://baidu.com)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-s1" title="com.webtest.ljjdemo.Friendship_link" hash-for-method="test_friendship_link_add(哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈...)">test_friendship_link_add(哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-s1" title="com.webtest.ljjdemo.Friendship_link" hash-for-method="test_friendship_link_add(#￥%, www.baidu,com)">test_friendship_link_add(#￥%, www.baidu,com)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-s1" title="com.webtest.ljjdemo.Friendship_link" hash-for-method="test_friendship_link_add(百度, baidu.com)">test_friendship_link_add(百度, baidu.com)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-s1" title="com.webtest.ljjdemo.Friendship_link" hash-for-method="test_friendship_link_add(哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈...)">test_friendship_link_add(哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-s1" title="com.webtest.ljjdemo.Friendship_link" hash-for-method="test_friendship_link_add(哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈...)">test_friendship_link_add(哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-s1" title="com.webtest.ljjdemo.Friendship_link" hash-for-method="test_friendship_link_add(123, http://baidu.com)">test_friendship_link_add(123, http://baidu.com)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-s1" title="com.webtest.ljjdemo.Friendship_link" hash-for-method="test_friendship_link_add(#￥%, http://baidu.com)">test_friendship_link_add(#￥%, http://baidu.com)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-s1" title="com.webtest.ljjdemo.Friendship_link" hash-for-method="test_friendship_link_add(123, www.baidu,com)">test_friendship_link_add(123, www.baidu,com)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-s1" title="com.webtest.ljjdemo.Friendship_link" hash-for-method="test_friendship_link_add(百度, http://baidu.com)">test_friendship_link_add(百度, http://baidu.com)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-s1" title="com.webtest.ljjdemo.Friendship_link" hash-for-method="test_friendship_link_add(#￥%, https://baidu.com)">test_friendship_link_add(#￥%, https://baidu.com)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-s1" title="com.webtest.ljjdemo.Friendship_link" hash-for-method="test_friendship_link_add(#￥%, baidu.com)">test_friendship_link_add(#￥%, baidu.com)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-s1" title="com.webtest.ljjdemo.Friendship_link" hash-for-method="test_friendship_link_add(百度, https://baidu.com)">test_friendship_link_add(百度, https://baidu.com)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-s1" title="com.webtest.ljjdemo.Growth_setting" hash-for-method="test_growth_value(liujunjiang)">test_growth_value(liujunjiang)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-s1" title="com.webtest.ljjdemo.Growth_setting" hash-for-method="test_growth_value(#￥%)">test_growth_value(#￥%)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-s1" title="com.webtest.ljjdemo.Growth_setting" hash-for-method="test_integral(liujunjiang)">test_integral(liujunjiang)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-s1" title="com.webtest.ljjdemo.Growth_setting" hash-for-method="test_integral(#￥%)">test_integral(#￥%)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-s1" title="com.webtest.ljjdemo.Level_setting" hash-for-method="test_level_description(1级)">test_level_description(1级)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-s1" title="com.webtest.ljjdemo.Level_setting" hash-for-method="test_required_growth_value(￥%#)">test_required_growth_value(￥%#)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-s1" title="com.webtest.ljjdemo.Level_setting" hash-for-method="test_required_growth_value(liujunjiang)">test_required_growth_value(liujunjiang)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-s1" title="com.webtest.ljjdemo.Level_setting" hash-for-method="test_required_growth_value(-1)">test_required_growth_value(-1)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-s1 -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-s1" class="hide-methods passed suite-s1"> (hide)</a> <!-- hide-methods passed suite-s1 -->
+                      <a href="#" panel-name="suite-s1" class="show-methods passed suite-s1"> (show)</a> <!-- show-methods passed suite-s1 -->
+                    </span>
+                    <div class="method-list-content passed suite-s1">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-s1" title="com.webtest.ljjdemo.Sign_in_setting" hash-for-method="test_Points_sign_in(-1)">test_Points_sign_in(-1)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-s1" title="com.webtest.ljjdemo.Sign_in_setting" hash-for-method="test_Points_sign_in(10)">test_Points_sign_in(10)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-s1" title="com.webtest.ljjdemo.Site_setting" hash-for-method="test_forum_subtitle_enter(剑鱼论坛plus)">test_forum_subtitle_enter(剑鱼论坛plus)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-s1" title="com.webtest.ljjdemo.Site_setting" hash-for-method="test_forum_subtitle_enter(￥%#)">test_forum_subtitle_enter(￥%#)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-s1" title="com.webtest.ljjdemo.Site_setting" hash-for-method="test_forum_subtitle_enter(哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈...)">test_forum_subtitle_enter(哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-s1" title="com.webtest.ljjdemo.Site_setting" hash-for-method="test_forum_subtitle_enter(12345)">test_forum_subtitle_enter(12345)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-s1" title="com.webtest.ljjdemo.Site_setting" hash-for-method="test_forum_title_enter(￥%#)">test_forum_title_enter(￥%#)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-s1" title="com.webtest.ljjdemo.Site_setting" hash-for-method="test_forum_title_enter(剑鱼论坛)">test_forum_title_enter(剑鱼论坛)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-s1" title="com.webtest.ljjdemo.Site_setting" hash-for-method="test_forum_title_enter(哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈...)">test_forum_title_enter(哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-s1" title="com.webtest.ljjdemo.Site_setting" hash-for-method="test_forum_title_enter(12345)">test_forum_title_enter(12345)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-s1" title="com.webtest.ljjdemo.Friendship_link" hash-for-method="test_friendship_link_sort(test)">test_friendship_link_sort(test)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-s1" title="com.webtest.ljjdemo.Friendship_link" hash-for-method="test_friendship_link_sort(10)">test_friendship_link_sort(10)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-s1" title="com.webtest.ljjdemo.Friendship_link" hash-for-method="test_friendship_link_sort(1234567890)">test_friendship_link_sort(1234567890)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-s1" title="com.webtest.ljjdemo.Friendship_link" hash-for-method="test_friendship_link_sort(0)">test_friendship_link_sort(0)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-s1" title="com.webtest.ljjdemo.Friendship_link" hash-for-method="test_friendship_link_sort(-1)">test_friendship_link_sort(-1)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-s1" title="com.webtest.ljjdemo.Friendship_link" hash-for-method="test_friendship_link_sort(测试)">test_friendship_link_sort(测试)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-s1" title="com.webtest.ljjdemo.Growth_setting" hash-for-method="test_growth_value(10)">test_growth_value(10)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-s1" title="com.webtest.ljjdemo.Growth_setting" hash-for-method="test_growth_value(-1)">test_growth_value(-1)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-s1" title="com.webtest.ljjdemo.Growth_setting" hash-for-method="test_growth_value(123456)">test_growth_value(123456)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-s1" title="com.webtest.ljjdemo.Growth_setting" hash-for-method="test_integral(-1)">test_integral(-1)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-s1" title="com.webtest.ljjdemo.Growth_setting" hash-for-method="test_integral(10)">test_integral(10)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-s1" title="com.webtest.ljjdemo.Growth_setting" hash-for-method="test_integral(123456)">test_integral(123456)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-s1" title="com.webtest.ljjdemo.Level_setting" hash-for-method="test_level_description(￥%#)">test_level_description(￥%#)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-s1" title="com.webtest.ljjdemo.Level_setting" hash-for-method="test_required_growth_value(10)">test_required_growth_value(10)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-s1" title="com.webtest.ljjdemo.Level_setting" hash-for-method="test_required_growth_value(12345678)">test_required_growth_value(12345678)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-s1 -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-s1" class="panel s1">
+          <div class="suite-s1-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.webtest.ljjdemo.Sign_in_setting</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="test_Points_sign_in(1+2)">
+                  </a> <!-- test_Points_sign_in(1+2) -->
+                  <span class="method-name">test_Points_sign_in</span>
+                  <span class="parameters">(1+2)</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [1+2] but found []
+	at com.webtest.ljjdemo.Sign_in_setting.test_Points_sign_in(Unknown Source)
+	at java.util.ArrayList.forEach(ArrayList.java:1257)
+... Removed 31 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(签到可得积分)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-s1-class-failed -->
+          <div class="suite-s1-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.webtest.ljjdemo.Friendship_link</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="test_friendship_link_add(123, baidu.com)">
+                  </a> <!-- test_friendship_link_add(123, baidu.com) -->
+                  <span class="method-name">test_friendship_link_add</span>
+                  <span class="parameters">(123, baidu.com)</span>
+                  <div class="stack-trace">org.openqa.selenium.ElementClickInterceptedException: Element &lt;label class=&quot;custom-control-label&quot;&gt; is not clickable at point (295,636) because another element &lt;div class=&quot;fixed-bottom text-right text-light&quot;&gt; obscures it
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:25:53&apos;
+System info: host: &apos;DESKTOP-H2NQ5S1&apos;, ip: &apos;192.168.56.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_171&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 78.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20200708170202, moz:geckodriverVersion: 0.27.0, moz:headless: true, moz:processID: 10452, moz:profile: C:\Users\Administrator.DESK..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 7d12672d-fbde-435a-9fe1-a74d3706f2c3
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at com.webtest.core.WebDriverEngine.click(Unknown Source)
+	at com.webtest.ljjdemo.Friendship_link.test_friendship_link_add(Unknown Source)
+	at java.util.ArrayList.forEach(ArrayList.java:1257)
+... Removed 30 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(添加友情链接)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test_friendship_link_add(百度, www.baidu,com)">
+                  </a> <!-- test_friendship_link_add(百度, www.baidu,com) -->
+                  <span class="method-name">test_friendship_link_add</span>
+                  <span class="parameters">(百度, www.baidu,com)</span>
+                  <div class="stack-trace">org.openqa.selenium.ElementClickInterceptedException: Element &lt;label class=&quot;custom-control-label&quot;&gt; is not clickable at point (295,636) because another element &lt;div class=&quot;fixed-bottom text-right text-light&quot;&gt; obscures it
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:25:53&apos;
+System info: host: &apos;DESKTOP-H2NQ5S1&apos;, ip: &apos;192.168.56.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_171&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 78.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20200708170202, moz:geckodriverVersion: 0.27.0, moz:headless: true, moz:processID: 16920, moz:profile: C:\Users\Administrator.DESK..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 37970966-3efe-44ab-8756-e19c6d272cc8
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at com.webtest.core.WebDriverEngine.click(Unknown Source)
+	at com.webtest.ljjdemo.Friendship_link.test_friendship_link_add(Unknown Source)
+	at java.util.ArrayList.forEach(ArrayList.java:1257)
+... Removed 30 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(添加友情链接)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test_friendship_link_add(哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈...)">
+                  </a> <!-- test_friendship_link_add(哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈...) -->
+                  <span class="method-name">test_friendship_link_add</span>
+                  <span class="parameters">(哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈, www.baidu,com)</span>
+                  <div class="stack-trace">org.openqa.selenium.ElementClickInterceptedException: Element &lt;label class=&quot;custom-control-label&quot;&gt; is not clickable at point (295,636) because another element &lt;div class=&quot;fixed-bottom text-right text-light&quot;&gt; obscures it
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:25:53&apos;
+System info: host: &apos;DESKTOP-H2NQ5S1&apos;, ip: &apos;192.168.56.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_171&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 78.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20200708170202, moz:geckodriverVersion: 0.27.0, moz:headless: true, moz:processID: 11284, moz:profile: C:\Users\Administrator.DESK..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: d416b64a-adea-4c69-acb9-928ec410ed1b
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at com.webtest.core.WebDriverEngine.click(Unknown Source)
+	at com.webtest.ljjdemo.Friendship_link.test_friendship_link_add(Unknown Source)
+	at java.util.ArrayList.forEach(ArrayList.java:1257)
+... Removed 30 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(添加友情链接)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test_friendship_link_add(123, https://baidu.com)">
+                  </a> <!-- test_friendship_link_add(123, https://baidu.com) -->
+                  <span class="method-name">test_friendship_link_add</span>
+                  <span class="parameters">(123, https://baidu.com)</span>
+                  <div class="stack-trace">org.openqa.selenium.ElementClickInterceptedException: Element &lt;label class=&quot;custom-control-label&quot;&gt; is not clickable at point (295,636) because another element &lt;div class=&quot;fixed-bottom text-right text-light&quot;&gt; obscures it
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:25:53&apos;
+System info: host: &apos;DESKTOP-H2NQ5S1&apos;, ip: &apos;192.168.56.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_171&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 78.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20200708170202, moz:geckodriverVersion: 0.27.0, moz:headless: true, moz:processID: 13072, moz:profile: C:\Users\Administrator.DESK..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 50953186-235a-4a44-a9a9-de4438cfb9af
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at com.webtest.core.WebDriverEngine.click(Unknown Source)
+	at com.webtest.ljjdemo.Friendship_link.test_friendship_link_add(Unknown Source)
+	at java.util.ArrayList.forEach(ArrayList.java:1257)
+... Removed 30 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(添加友情链接)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test_friendship_link_add(哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈...)">
+                  </a> <!-- test_friendship_link_add(哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈...) -->
+                  <span class="method-name">test_friendship_link_add</span>
+                  <span class="parameters">(哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈, http://baidu.com)</span>
+                  <div class="stack-trace">org.openqa.selenium.ElementClickInterceptedException: Element &lt;label class=&quot;custom-control-label&quot;&gt; is not clickable at point (295,636) because another element &lt;div class=&quot;fixed-bottom text-right text-light&quot;&gt; obscures it
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:25:53&apos;
+System info: host: &apos;DESKTOP-H2NQ5S1&apos;, ip: &apos;192.168.56.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_171&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 78.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20200708170202, moz:geckodriverVersion: 0.27.0, moz:headless: true, moz:processID: 19880, moz:profile: C:\Users\Administrator.DESK..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: d671e036-eb36-4620-974c-b2fd04395ed8
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at com.webtest.core.WebDriverEngine.click(Unknown Source)
+	at com.webtest.ljjdemo.Friendship_link.test_friendship_link_add(Unknown Source)
+	at java.util.ArrayList.forEach(ArrayList.java:1257)
+... Removed 30 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(添加友情链接)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test_friendship_link_add(#￥%, www.baidu,com)">
+                  </a> <!-- test_friendship_link_add(#￥%, www.baidu,com) -->
+                  <span class="method-name">test_friendship_link_add</span>
+                  <span class="parameters">(#￥%, www.baidu,com)</span>
+                  <div class="stack-trace">org.openqa.selenium.ElementClickInterceptedException: Element &lt;label class=&quot;custom-control-label&quot;&gt; is not clickable at point (295,636) because another element &lt;div class=&quot;fixed-bottom text-right text-light&quot;&gt; obscures it
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:25:53&apos;
+System info: host: &apos;DESKTOP-H2NQ5S1&apos;, ip: &apos;192.168.56.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_171&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 78.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20200708170202, moz:geckodriverVersion: 0.27.0, moz:headless: true, moz:processID: 16204, moz:profile: C:\Users\Administrator.DESK..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: f0b005a8-ff74-42ef-b369-3cf9b689e4f5
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at com.webtest.core.WebDriverEngine.click(Unknown Source)
+	at com.webtest.ljjdemo.Friendship_link.test_friendship_link_add(Unknown Source)
+	at java.util.ArrayList.forEach(ArrayList.java:1257)
+... Removed 30 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(添加友情链接)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test_friendship_link_add(百度, baidu.com)">
+                  </a> <!-- test_friendship_link_add(百度, baidu.com) -->
+                  <span class="method-name">test_friendship_link_add</span>
+                  <span class="parameters">(百度, baidu.com)</span>
+                  <div class="stack-trace">org.openqa.selenium.ElementClickInterceptedException: Element &lt;label class=&quot;custom-control-label&quot;&gt; is not clickable at point (295,636) because another element &lt;div class=&quot;fixed-bottom text-right text-light&quot;&gt; obscures it
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:25:53&apos;
+System info: host: &apos;DESKTOP-H2NQ5S1&apos;, ip: &apos;192.168.56.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_171&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 78.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20200708170202, moz:geckodriverVersion: 0.27.0, moz:headless: true, moz:processID: 17236, moz:profile: C:\Users\Administrator.DESK..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: ecfc440c-3b73-4a2d-ab84-631226365519
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at com.webtest.core.WebDriverEngine.click(Unknown Source)
+	at com.webtest.ljjdemo.Friendship_link.test_friendship_link_add(Unknown Source)
+	at java.util.ArrayList.forEach(ArrayList.java:1257)
+... Removed 30 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(添加友情链接)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test_friendship_link_add(哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈...)">
+                  </a> <!-- test_friendship_link_add(哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈...) -->
+                  <span class="method-name">test_friendship_link_add</span>
+                  <span class="parameters">(哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈, https://baidu.com)</span>
+                  <div class="stack-trace">org.openqa.selenium.ElementClickInterceptedException: Element &lt;label class=&quot;custom-control-label&quot;&gt; is not clickable at point (295,636) because another element &lt;div class=&quot;fixed-bottom text-right text-light&quot;&gt; obscures it
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:25:53&apos;
+System info: host: &apos;DESKTOP-H2NQ5S1&apos;, ip: &apos;192.168.56.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_171&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 78.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20200708170202, moz:geckodriverVersion: 0.27.0, moz:headless: true, moz:processID: 15468, moz:profile: C:\Users\Administrator.DESK..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 7d4f623d-0500-4eed-8f4c-e0e753babfb0
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at com.webtest.core.WebDriverEngine.click(Unknown Source)
+	at com.webtest.ljjdemo.Friendship_link.test_friendship_link_add(Unknown Source)
+	at java.util.ArrayList.forEach(ArrayList.java:1257)
+... Removed 30 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(添加友情链接)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test_friendship_link_add(哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈...)">
+                  </a> <!-- test_friendship_link_add(哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈...) -->
+                  <span class="method-name">test_friendship_link_add</span>
+                  <span class="parameters">(哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈, baidu.com)</span>
+                  <div class="stack-trace">org.openqa.selenium.ElementClickInterceptedException: Element &lt;label class=&quot;custom-control-label&quot;&gt; is not clickable at point (295,636) because another element &lt;div class=&quot;fixed-bottom text-right text-light&quot;&gt; obscures it
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:25:53&apos;
+System info: host: &apos;DESKTOP-H2NQ5S1&apos;, ip: &apos;192.168.56.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_171&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 78.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20200708170202, moz:geckodriverVersion: 0.27.0, moz:headless: true, moz:processID: 10088, moz:profile: C:\Users\Administrator.DESK..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 697c578c-0a16-4266-8175-f3cf95ad1680
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at com.webtest.core.WebDriverEngine.click(Unknown Source)
+	at com.webtest.ljjdemo.Friendship_link.test_friendship_link_add(Unknown Source)
+	at java.util.ArrayList.forEach(ArrayList.java:1257)
+... Removed 30 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(添加友情链接)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test_friendship_link_add(123, http://baidu.com)">
+                  </a> <!-- test_friendship_link_add(123, http://baidu.com) -->
+                  <span class="method-name">test_friendship_link_add</span>
+                  <span class="parameters">(123, http://baidu.com)</span>
+                  <div class="stack-trace">org.openqa.selenium.ElementClickInterceptedException: Element &lt;label class=&quot;custom-control-label&quot;&gt; is not clickable at point (295,636) because another element &lt;div class=&quot;fixed-bottom text-right text-light&quot;&gt; obscures it
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:25:53&apos;
+System info: host: &apos;DESKTOP-H2NQ5S1&apos;, ip: &apos;192.168.56.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_171&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 78.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20200708170202, moz:geckodriverVersion: 0.27.0, moz:headless: true, moz:processID: 10916, moz:profile: C:\Users\Administrator.DESK..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 0e5c8794-1648-45db-914a-891c4f6bbf9e
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at com.webtest.core.WebDriverEngine.click(Unknown Source)
+	at com.webtest.ljjdemo.Friendship_link.test_friendship_link_add(Unknown Source)
+	at java.util.ArrayList.forEach(ArrayList.java:1257)
+... Removed 30 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(添加友情链接)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test_friendship_link_add(#￥%, http://baidu.com)">
+                  </a> <!-- test_friendship_link_add(#￥%, http://baidu.com) -->
+                  <span class="method-name">test_friendship_link_add</span>
+                  <span class="parameters">(#￥%, http://baidu.com)</span>
+                  <div class="stack-trace">org.openqa.selenium.ElementClickInterceptedException: Element &lt;label class=&quot;custom-control-label&quot;&gt; is not clickable at point (295,636) because another element &lt;div class=&quot;fixed-bottom text-right text-light&quot;&gt; obscures it
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:25:53&apos;
+System info: host: &apos;DESKTOP-H2NQ5S1&apos;, ip: &apos;192.168.56.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_171&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 78.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20200708170202, moz:geckodriverVersion: 0.27.0, moz:headless: true, moz:processID: 21840, moz:profile: C:\Users\Administrator.DESK..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: eaeb3a1e-6f82-40e7-b7c7-b9bd197e8878
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at com.webtest.core.WebDriverEngine.click(Unknown Source)
+	at com.webtest.ljjdemo.Friendship_link.test_friendship_link_add(Unknown Source)
+	at java.util.ArrayList.forEach(ArrayList.java:1257)
+... Removed 30 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(添加友情链接)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test_friendship_link_add(123, www.baidu,com)">
+                  </a> <!-- test_friendship_link_add(123, www.baidu,com) -->
+                  <span class="method-name">test_friendship_link_add</span>
+                  <span class="parameters">(123, www.baidu,com)</span>
+                  <div class="stack-trace">org.openqa.selenium.ElementClickInterceptedException: Element &lt;label class=&quot;custom-control-label&quot;&gt; is not clickable at point (295,636) because another element &lt;div class=&quot;fixed-bottom text-right text-light&quot;&gt; obscures it
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:25:53&apos;
+System info: host: &apos;DESKTOP-H2NQ5S1&apos;, ip: &apos;192.168.56.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_171&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 78.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20200708170202, moz:geckodriverVersion: 0.27.0, moz:headless: true, moz:processID: 13520, moz:profile: C:\Users\Administrator.DESK..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 5c3839c4-2886-4e95-b90d-8291834458e2
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at com.webtest.core.WebDriverEngine.click(Unknown Source)
+	at com.webtest.ljjdemo.Friendship_link.test_friendship_link_add(Unknown Source)
+	at java.util.ArrayList.forEach(ArrayList.java:1257)
+... Removed 29 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(添加友情链接)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test_friendship_link_add(百度, http://baidu.com)">
+                  </a> <!-- test_friendship_link_add(百度, http://baidu.com) -->
+                  <span class="method-name">test_friendship_link_add</span>
+                  <span class="parameters">(百度, http://baidu.com)</span>
+                  <div class="stack-trace">org.openqa.selenium.ElementClickInterceptedException: Element &lt;label class=&quot;custom-control-label&quot;&gt; is not clickable at point (295,636) because another element &lt;div class=&quot;fixed-bottom text-right text-light&quot;&gt; obscures it
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:25:53&apos;
+System info: host: &apos;DESKTOP-H2NQ5S1&apos;, ip: &apos;192.168.56.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_171&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 78.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20200708170202, moz:geckodriverVersion: 0.27.0, moz:headless: true, moz:processID: 24764, moz:profile: C:\Users\Administrator.DESK..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 714a707a-3400-415c-a391-f7166395dbb5
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at com.webtest.core.WebDriverEngine.click(Unknown Source)
+	at com.webtest.ljjdemo.Friendship_link.test_friendship_link_add(Unknown Source)
+	at java.util.ArrayList.forEach(ArrayList.java:1257)
+... Removed 30 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(添加友情链接)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test_friendship_link_add(#￥%, https://baidu.com)">
+                  </a> <!-- test_friendship_link_add(#￥%, https://baidu.com) -->
+                  <span class="method-name">test_friendship_link_add</span>
+                  <span class="parameters">(#￥%, https://baidu.com)</span>
+                  <div class="stack-trace">org.openqa.selenium.ElementClickInterceptedException: Element &lt;label class=&quot;custom-control-label&quot;&gt; is not clickable at point (295,636) because another element &lt;div class=&quot;fixed-bottom text-right text-light&quot;&gt; obscures it
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:25:53&apos;
+System info: host: &apos;DESKTOP-H2NQ5S1&apos;, ip: &apos;192.168.56.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_171&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 78.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20200708170202, moz:geckodriverVersion: 0.27.0, moz:headless: true, moz:processID: 12864, moz:profile: C:\Users\Administrator.DESK..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: f9b6e333-7656-445c-aa7c-19eaa208fd15
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at com.webtest.core.WebDriverEngine.click(Unknown Source)
+	at com.webtest.ljjdemo.Friendship_link.test_friendship_link_add(Unknown Source)
+	at java.util.ArrayList.forEach(ArrayList.java:1257)
+... Removed 30 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(添加友情链接)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test_friendship_link_add(#￥%, baidu.com)">
+                  </a> <!-- test_friendship_link_add(#￥%, baidu.com) -->
+                  <span class="method-name">test_friendship_link_add</span>
+                  <span class="parameters">(#￥%, baidu.com)</span>
+                  <div class="stack-trace">org.openqa.selenium.ElementClickInterceptedException: Element &lt;label class=&quot;custom-control-label&quot;&gt; is not clickable at point (295,636) because another element &lt;div class=&quot;fixed-bottom text-right text-light&quot;&gt; obscures it
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:25:53&apos;
+System info: host: &apos;DESKTOP-H2NQ5S1&apos;, ip: &apos;192.168.56.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_171&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 78.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20200708170202, moz:geckodriverVersion: 0.27.0, moz:headless: true, moz:processID: 7964, moz:profile: C:\Users\Administrator.DESK..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: d9230365-3309-4528-962c-69a217ec3fc5
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at com.webtest.core.WebDriverEngine.click(Unknown Source)
+	at com.webtest.ljjdemo.Friendship_link.test_friendship_link_add(Unknown Source)
+	at java.util.ArrayList.forEach(ArrayList.java:1257)
+... Removed 30 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(添加友情链接)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test_friendship_link_add(百度, https://baidu.com)">
+                  </a> <!-- test_friendship_link_add(百度, https://baidu.com) -->
+                  <span class="method-name">test_friendship_link_add</span>
+                  <span class="parameters">(百度, https://baidu.com)</span>
+                  <div class="stack-trace">org.openqa.selenium.ElementClickInterceptedException: Element &lt;label class=&quot;custom-control-label&quot;&gt; is not clickable at point (295,636) because another element &lt;div class=&quot;fixed-bottom text-right text-light&quot;&gt; obscures it
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:25:53&apos;
+System info: host: &apos;DESKTOP-H2NQ5S1&apos;, ip: &apos;192.168.56.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_171&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 78.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20200708170202, moz:geckodriverVersion: 0.27.0, moz:headless: true, moz:processID: 21876, moz:profile: C:\Users\Administrator.DESK..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: efa1b2c3-ee65-4dbf-b48f-665df4960a59
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at com.webtest.core.WebDriverEngine.click(Unknown Source)
+	at com.webtest.ljjdemo.Friendship_link.test_friendship_link_add(Unknown Source)
+	at java.util.ArrayList.forEach(ArrayList.java:1257)
+... Removed 30 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(添加友情链接)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-s1-class-failed -->
+          <div class="suite-s1-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.webtest.ljjdemo.Level_setting</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="test_level_description(1级)">
+                  </a> <!-- test_level_description(1级) -->
+                  <span class="method-name">test_level_description</span>
+                  <span class="parameters">(1级)</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [1级] but found []
+	at com.webtest.ljjdemo.Level_setting.test_level_description(Unknown Source)
+	at java.util.ArrayList.forEach(ArrayList.java:1257)
+... Removed 31 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(等级描述)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test_required_growth_value(￥%#)">
+                  </a> <!-- test_required_growth_value(￥%#) -->
+                  <span class="method-name">test_required_growth_value</span>
+                  <span class="parameters">(￥%#)</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [￥%#] but found [0]
+	at com.webtest.ljjdemo.Level_setting.test_required_growth_value(Unknown Source)
+	at java.util.ArrayList.forEach(ArrayList.java:1257)
+... Removed 31 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(所需成长值)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test_required_growth_value(liujunjiang)">
+                  </a> <!-- test_required_growth_value(liujunjiang) -->
+                  <span class="method-name">test_required_growth_value</span>
+                  <span class="parameters">(liujunjiang)</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [liujunjiang] but found [0]
+	at com.webtest.ljjdemo.Level_setting.test_required_growth_value(Unknown Source)
+	at java.util.ArrayList.forEach(ArrayList.java:1257)
+... Removed 31 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(所需成长值)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test_required_growth_value(-1)">
+                  </a> <!-- test_required_growth_value(-1) -->
+                  <span class="method-name">test_required_growth_value</span>
+                  <span class="parameters">(-1)</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [-1] but found [0]
+	at com.webtest.ljjdemo.Level_setting.test_required_growth_value(Unknown Source)
+	at java.util.ArrayList.forEach(ArrayList.java:1257)
+... Removed 31 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(所需成长值)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-s1-class-failed -->
+          <div class="suite-s1-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.webtest.ljjdemo.Growth_setting</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="test_growth_value(liujunjiang)">
+                  </a> <!-- test_growth_value(liujunjiang) -->
+                  <span class="method-name">test_growth_value</span>
+                  <span class="parameters">(liujunjiang)</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [liujunjiang] but found [0]
+	at com.webtest.ljjdemo.Growth_setting.test_growth_value(Unknown Source)
+	at java.util.ArrayList.forEach(ArrayList.java:1257)
+... Removed 31 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(增加成长值)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test_growth_value(#￥%)">
+                  </a> <!-- test_growth_value(#￥%) -->
+                  <span class="method-name">test_growth_value</span>
+                  <span class="parameters">(#￥%)</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [#￥%] but found [0]
+	at com.webtest.ljjdemo.Growth_setting.test_growth_value(Unknown Source)
+	at java.util.ArrayList.forEach(ArrayList.java:1257)
+... Removed 31 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(增加成长值)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test_integral(liujunjiang)">
+                  </a> <!-- test_integral(liujunjiang) -->
+                  <span class="method-name">test_integral</span>
+                  <span class="parameters">(liujunjiang)</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [liujunjiang] but found [0]
+	at com.webtest.ljjdemo.Growth_setting.test_integral(Unknown Source)
+	at java.util.ArrayList.forEach(ArrayList.java:1257)
+... Removed 31 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(增加成长值)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test_integral(#￥%)">
+                  </a> <!-- test_integral(#￥%) -->
+                  <span class="method-name">test_integral</span>
+                  <span class="parameters">(#￥%)</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [#￥%] but found [0]
+	at com.webtest.ljjdemo.Growth_setting.test_integral(Unknown Source)
+	at java.util.ArrayList.forEach(ArrayList.java:1257)
+... Removed 31 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(增加成长值)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-s1-class-failed -->
+          <div class="suite-s1-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.webtest.ljjdemo.Sign_in_setting</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="test_Points_sign_in(-1)">
+                  </a> <!-- test_Points_sign_in(-1) -->
+                  <span class="method-name">test_Points_sign_in</span>
+                  <span class="parameters">(-1)</span>
+                  <em>
+(签到可得积分)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test_Points_sign_in(10)">
+                  </a> <!-- test_Points_sign_in(10) -->
+                  <span class="method-name">test_Points_sign_in</span>
+                  <span class="parameters">(10)</span>
+                  <em>
+(签到可得积分)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-s1-class-passed -->
+          <div class="suite-s1-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.webtest.ljjdemo.Friendship_link</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="test_friendship_link_sort(test)">
+                  </a> <!-- test_friendship_link_sort(test) -->
+                  <span class="method-name">test_friendship_link_sort</span>
+                  <span class="parameters">(test)</span>
+                  <em>
+(友情链接排序)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test_friendship_link_sort(10)">
+                  </a> <!-- test_friendship_link_sort(10) -->
+                  <span class="method-name">test_friendship_link_sort</span>
+                  <span class="parameters">(10)</span>
+                  <em>
+(友情链接排序)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test_friendship_link_sort(1234567890)">
+                  </a> <!-- test_friendship_link_sort(1234567890) -->
+                  <span class="method-name">test_friendship_link_sort</span>
+                  <span class="parameters">(1234567890)</span>
+                  <em>
+(友情链接排序)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test_friendship_link_sort(0)">
+                  </a> <!-- test_friendship_link_sort(0) -->
+                  <span class="method-name">test_friendship_link_sort</span>
+                  <span class="parameters">(0)</span>
+                  <em>
+(友情链接排序)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test_friendship_link_sort(-1)">
+                  </a> <!-- test_friendship_link_sort(-1) -->
+                  <span class="method-name">test_friendship_link_sort</span>
+                  <span class="parameters">(-1)</span>
+                  <em>
+(友情链接排序)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test_friendship_link_sort(测试)">
+                  </a> <!-- test_friendship_link_sort(测试) -->
+                  <span class="method-name">test_friendship_link_sort</span>
+                  <span class="parameters">(测试)</span>
+                  <em>
+(友情链接排序)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-s1-class-passed -->
+          <div class="suite-s1-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.webtest.ljjdemo.Level_setting</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="test_level_description(￥%#)">
+                  </a> <!-- test_level_description(￥%#) -->
+                  <span class="method-name">test_level_description</span>
+                  <span class="parameters">(￥%#)</span>
+                  <em>
+(等级描述)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test_required_growth_value(10)">
+                  </a> <!-- test_required_growth_value(10) -->
+                  <span class="method-name">test_required_growth_value</span>
+                  <span class="parameters">(10)</span>
+                  <em>
+(所需成长值)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test_required_growth_value(12345678)">
+                  </a> <!-- test_required_growth_value(12345678) -->
+                  <span class="method-name">test_required_growth_value</span>
+                  <span class="parameters">(12345678)</span>
+                  <em>
+(所需成长值)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-s1-class-passed -->
+          <div class="suite-s1-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.webtest.ljjdemo.Site_setting</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="test_forum_subtitle_enter(剑鱼论坛plus)">
+                  </a> <!-- test_forum_subtitle_enter(剑鱼论坛plus) -->
+                  <span class="method-name">test_forum_subtitle_enter</span>
+                  <span class="parameters">(剑鱼论坛plus)</span>
+                  <em>
+(论坛副名称)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test_forum_subtitle_enter(￥%#)">
+                  </a> <!-- test_forum_subtitle_enter(￥%#) -->
+                  <span class="method-name">test_forum_subtitle_enter</span>
+                  <span class="parameters">(￥%#)</span>
+                  <em>
+(论坛副名称)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test_forum_subtitle_enter(哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈...)">
+                  </a> <!-- test_forum_subtitle_enter(哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈...) -->
+                  <span class="method-name">test_forum_subtitle_enter</span>
+                  <span class="parameters">(哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈)</span>
+                  <em>
+(论坛副名称)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test_forum_subtitle_enter(12345)">
+                  </a> <!-- test_forum_subtitle_enter(12345) -->
+                  <span class="method-name">test_forum_subtitle_enter</span>
+                  <span class="parameters">(12345)</span>
+                  <em>
+(论坛副名称)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test_forum_title_enter(￥%#)">
+                  </a> <!-- test_forum_title_enter(￥%#) -->
+                  <span class="method-name">test_forum_title_enter</span>
+                  <span class="parameters">(￥%#)</span>
+                  <em>
+(论坛名称)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test_forum_title_enter(剑鱼论坛)">
+                  </a> <!-- test_forum_title_enter(剑鱼论坛) -->
+                  <span class="method-name">test_forum_title_enter</span>
+                  <span class="parameters">(剑鱼论坛)</span>
+                  <em>
+(论坛名称)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test_forum_title_enter(哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈...)">
+                  </a> <!-- test_forum_title_enter(哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈...) -->
+                  <span class="method-name">test_forum_title_enter</span>
+                  <span class="parameters">(哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈)</span>
+                  <em>
+(论坛名称)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test_forum_title_enter(12345)">
+                  </a> <!-- test_forum_title_enter(12345) -->
+                  <span class="method-name">test_forum_title_enter</span>
+                  <span class="parameters">(12345)</span>
+                  <em>
+(论坛名称)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-s1-class-passed -->
+          <div class="suite-s1-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.webtest.ljjdemo.Growth_setting</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="test_growth_value(10)">
+                  </a> <!-- test_growth_value(10) -->
+                  <span class="method-name">test_growth_value</span>
+                  <span class="parameters">(10)</span>
+                  <em>
+(增加成长值)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test_growth_value(-1)">
+                  </a> <!-- test_growth_value(-1) -->
+                  <span class="method-name">test_growth_value</span>
+                  <span class="parameters">(-1)</span>
+                  <em>
+(增加成长值)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test_growth_value(123456)">
+                  </a> <!-- test_growth_value(123456) -->
+                  <span class="method-name">test_growth_value</span>
+                  <span class="parameters">(123456)</span>
+                  <em>
+(增加成长值)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test_integral(-1)">
+                  </a> <!-- test_integral(-1) -->
+                  <span class="method-name">test_integral</span>
+                  <span class="parameters">(-1)</span>
+                  <em>
+(增加成长值)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test_integral(10)">
+                  </a> <!-- test_integral(10) -->
+                  <span class="method-name">test_integral</span>
+                  <span class="parameters">(10)</span>
+                  <em>
+(增加成长值)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test_integral(123456)">
+                  </a> <!-- test_integral(123456) -->
+                  <span class="method-name">test_integral</span>
+                  <span class="parameters">(123456)</span>
+                  <em>
+(增加成长值)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-s1-class-passed -->
+        </div> <!-- panel s1 -->
+        <div panel-name="test-xml-s1" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\Administrator.DESKTOP-H2NQ5S1\Desktop\test_jianyuluntan\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite guice-stage=&quot;DEVELOPMENT&quot; name=&quot;s1&quot;&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;com.webtest.core.WebTestListener&quot;/&gt;
+  &lt;/listeners&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;test1&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.webtest.ljjdemo.Site_setting&quot;/&gt;
+      &lt;class name=&quot;com.webtest.ljjdemo.Sign_in_setting&quot;/&gt;
+      &lt;class name=&quot;com.webtest.ljjdemo.Level_setting&quot;/&gt;
+      &lt;class name=&quot;com.webtest.ljjdemo.Growth_setting&quot;/&gt;
+      &lt;class name=&quot;com.webtest.ljjdemo.Friendship_link&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- test1 --&gt;
+&lt;/suite&gt; &lt;!-- s1 --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-s1" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for s1</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">test1 (5 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-s1" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for s1</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-s1" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for s1</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_s1');
+function tableData_s1() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(50);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'test_forum_title_enter')
+data.setCell(0, 2, 'com.webtest.ljjdemo.Site_setting')
+data.setCell(0, 3, 6981);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'test_forum_subtitle_enter')
+data.setCell(1, 2, 'com.webtest.ljjdemo.Site_setting')
+data.setCell(1, 3, 6949);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'test_forum_subtitle_enter')
+data.setCell(2, 2, 'com.webtest.ljjdemo.Site_setting')
+data.setCell(2, 3, 6852);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'test_forum_title_enter')
+data.setCell(3, 2, 'com.webtest.ljjdemo.Site_setting')
+data.setCell(3, 3, 6820);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'test_forum_subtitle_enter')
+data.setCell(4, 2, 'com.webtest.ljjdemo.Site_setting')
+data.setCell(4, 3, 6780);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'test_forum_title_enter')
+data.setCell(5, 2, 'com.webtest.ljjdemo.Site_setting')
+data.setCell(5, 3, 6773);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'test_forum_subtitle_enter')
+data.setCell(6, 2, 'com.webtest.ljjdemo.Site_setting')
+data.setCell(6, 3, 6716);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'test_friendship_link_sort')
+data.setCell(7, 2, 'com.webtest.ljjdemo.Friendship_link')
+data.setCell(7, 3, 6691);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'test_friendship_link_sort')
+data.setCell(8, 2, 'com.webtest.ljjdemo.Friendship_link')
+data.setCell(8, 3, 6680);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'test_forum_title_enter')
+data.setCell(9, 2, 'com.webtest.ljjdemo.Site_setting')
+data.setCell(9, 3, 6679);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'test_friendship_link_sort')
+data.setCell(10, 2, 'com.webtest.ljjdemo.Friendship_link')
+data.setCell(10, 3, 6633);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'test_friendship_link_sort')
+data.setCell(11, 2, 'com.webtest.ljjdemo.Friendship_link')
+data.setCell(11, 3, 6620);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'test_friendship_link_sort')
+data.setCell(12, 2, 'com.webtest.ljjdemo.Friendship_link')
+data.setCell(12, 3, 6508);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'test_friendship_link_sort')
+data.setCell(13, 2, 'com.webtest.ljjdemo.Friendship_link')
+data.setCell(13, 3, 6499);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'test_required_growth_value')
+data.setCell(14, 2, 'com.webtest.ljjdemo.Level_setting')
+data.setCell(14, 3, 4491);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'test_growth_value')
+data.setCell(15, 2, 'com.webtest.ljjdemo.Growth_setting')
+data.setCell(15, 3, 4490);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'test_integral')
+data.setCell(16, 2, 'com.webtest.ljjdemo.Growth_setting')
+data.setCell(16, 3, 4460);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'test_integral')
+data.setCell(17, 2, 'com.webtest.ljjdemo.Growth_setting')
+data.setCell(17, 3, 4439);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'test_growth_value')
+data.setCell(18, 2, 'com.webtest.ljjdemo.Growth_setting')
+data.setCell(18, 3, 4379);
+data.setCell(19, 0, 19)
+data.setCell(19, 1, 'test_level_description')
+data.setCell(19, 2, 'com.webtest.ljjdemo.Level_setting')
+data.setCell(19, 3, 4360);
+data.setCell(20, 0, 20)
+data.setCell(20, 1, 'test_growth_value')
+data.setCell(20, 2, 'com.webtest.ljjdemo.Growth_setting')
+data.setCell(20, 3, 4319);
+data.setCell(21, 0, 21)
+data.setCell(21, 1, 'test_growth_value')
+data.setCell(21, 2, 'com.webtest.ljjdemo.Growth_setting')
+data.setCell(21, 3, 4301);
+data.setCell(22, 0, 22)
+data.setCell(22, 1, 'test_level_description')
+data.setCell(22, 2, 'com.webtest.ljjdemo.Level_setting')
+data.setCell(22, 3, 4285);
+data.setCell(23, 0, 23)
+data.setCell(23, 1, 'test_required_growth_value')
+data.setCell(23, 2, 'com.webtest.ljjdemo.Level_setting')
+data.setCell(23, 3, 4249);
+data.setCell(24, 0, 24)
+data.setCell(24, 1, 'test_integral')
+data.setCell(24, 2, 'com.webtest.ljjdemo.Growth_setting')
+data.setCell(24, 3, 4241);
+data.setCell(25, 0, 25)
+data.setCell(25, 1, 'test_required_growth_value')
+data.setCell(25, 2, 'com.webtest.ljjdemo.Level_setting')
+data.setCell(25, 3, 4239);
+data.setCell(26, 0, 26)
+data.setCell(26, 1, 'test_friendship_link_add')
+data.setCell(26, 2, 'com.webtest.ljjdemo.Friendship_link')
+data.setCell(26, 3, 3593);
+data.setCell(27, 0, 27)
+data.setCell(27, 1, 'test_friendship_link_add')
+data.setCell(27, 2, 'com.webtest.ljjdemo.Friendship_link')
+data.setCell(27, 3, 3570);
+data.setCell(28, 0, 28)
+data.setCell(28, 1, 'test_friendship_link_add')
+data.setCell(28, 2, 'com.webtest.ljjdemo.Friendship_link')
+data.setCell(28, 3, 3563);
+data.setCell(29, 0, 29)
+data.setCell(29, 1, 'test_friendship_link_add')
+data.setCell(29, 2, 'com.webtest.ljjdemo.Friendship_link')
+data.setCell(29, 3, 3559);
+data.setCell(30, 0, 30)
+data.setCell(30, 1, 'test_friendship_link_add')
+data.setCell(30, 2, 'com.webtest.ljjdemo.Friendship_link')
+data.setCell(30, 3, 3550);
+data.setCell(31, 0, 31)
+data.setCell(31, 1, 'test_friendship_link_add')
+data.setCell(31, 2, 'com.webtest.ljjdemo.Friendship_link')
+data.setCell(31, 3, 3540);
+data.setCell(32, 0, 32)
+data.setCell(32, 1, 'test_growth_value')
+data.setCell(32, 2, 'com.webtest.ljjdemo.Growth_setting')
+data.setCell(32, 3, 3531);
+data.setCell(33, 0, 33)
+data.setCell(33, 1, 'test_friendship_link_add')
+data.setCell(33, 2, 'com.webtest.ljjdemo.Friendship_link')
+data.setCell(33, 3, 3518);
+data.setCell(34, 0, 34)
+data.setCell(34, 1, 'test_Points_sign_in')
+data.setCell(34, 2, 'com.webtest.ljjdemo.Sign_in_setting')
+data.setCell(34, 3, 3459);
+data.setCell(35, 0, 35)
+data.setCell(35, 1, 'test_Points_sign_in')
+data.setCell(35, 2, 'com.webtest.ljjdemo.Sign_in_setting')
+data.setCell(35, 3, 3452);
+data.setCell(36, 0, 36)
+data.setCell(36, 1, 'test_required_growth_value')
+data.setCell(36, 2, 'com.webtest.ljjdemo.Level_setting')
+data.setCell(36, 3, 3450);
+data.setCell(37, 0, 37)
+data.setCell(37, 1, 'test_Points_sign_in')
+data.setCell(37, 2, 'com.webtest.ljjdemo.Sign_in_setting')
+data.setCell(37, 3, 3443);
+data.setCell(38, 0, 38)
+data.setCell(38, 1, 'test_friendship_link_add')
+data.setCell(38, 2, 'com.webtest.ljjdemo.Friendship_link')
+data.setCell(38, 3, 3440);
+data.setCell(39, 0, 39)
+data.setCell(39, 1, 'test_friendship_link_add')
+data.setCell(39, 2, 'com.webtest.ljjdemo.Friendship_link')
+data.setCell(39, 3, 3438);
+data.setCell(40, 0, 40)
+data.setCell(40, 1, 'test_friendship_link_add')
+data.setCell(40, 2, 'com.webtest.ljjdemo.Friendship_link')
+data.setCell(40, 3, 3427);
+data.setCell(41, 0, 41)
+data.setCell(41, 1, 'test_friendship_link_add')
+data.setCell(41, 2, 'com.webtest.ljjdemo.Friendship_link')
+data.setCell(41, 3, 3410);
+data.setCell(42, 0, 42)
+data.setCell(42, 1, 'test_required_growth_value')
+data.setCell(42, 2, 'com.webtest.ljjdemo.Level_setting')
+data.setCell(42, 3, 3400);
+data.setCell(43, 0, 43)
+data.setCell(43, 1, 'test_friendship_link_add')
+data.setCell(43, 2, 'com.webtest.ljjdemo.Friendship_link')
+data.setCell(43, 3, 3400);
+data.setCell(44, 0, 44)
+data.setCell(44, 1, 'test_integral')
+data.setCell(44, 2, 'com.webtest.ljjdemo.Growth_setting')
+data.setCell(44, 3, 3390);
+data.setCell(45, 0, 45)
+data.setCell(45, 1, 'test_friendship_link_add')
+data.setCell(45, 2, 'com.webtest.ljjdemo.Friendship_link')
+data.setCell(45, 3, 3370);
+data.setCell(46, 0, 46)
+data.setCell(46, 1, 'test_integral')
+data.setCell(46, 2, 'com.webtest.ljjdemo.Growth_setting')
+data.setCell(46, 3, 3359);
+data.setCell(47, 0, 47)
+data.setCell(47, 1, 'test_friendship_link_add')
+data.setCell(47, 2, 'com.webtest.ljjdemo.Friendship_link')
+data.setCell(47, 3, 3349);
+data.setCell(48, 0, 48)
+data.setCell(48, 1, 'test_friendship_link_add')
+data.setCell(48, 2, 'com.webtest.ljjdemo.Friendship_link')
+data.setCell(48, 3, 3328);
+data.setCell(49, 0, 49)
+data.setCell(49, 1, 'test_friendship_link_add')
+data.setCell(49, 2, 'com.webtest.ljjdemo.Friendship_link')
+data.setCell(49, 3, 3320);
+window.suiteTableData['s1']= { tableData: data, tableDiv: 'times-div-s1'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 3 minutes</span>
+              <div id="times-div-s1">
+              </div> <!-- times-div-s1 -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-s1" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for s1</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-s1" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-s1" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.webtest.ljjdemo.Site_setting</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">doBeforeClass</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">login_to</span>
+                <span class="method-start">3807 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">test_forum_subtitle_enter(剑鱼论坛plus)</span>
+                <span class="method-start">17088 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">submitAndQuit</span>
+                <span class="method-start">24047 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">doAfterMethod_2</span>
+                <span class="method-start">27695 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">doBeforeClass</span>
+                <span class="method-start">30447 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">login_to</span>
+                <span class="method-start">33257 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">test_forum_subtitle_enter(￥%#)</span>
+                <span class="method-start">43167 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">submitAndQuit</span>
+                <span class="method-start">49883 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">doAfterMethod_2</span>
+                <span class="method-start">53079 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">doBeforeClass</span>
+                <span class="method-start">55888 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">login_to</span>
+                <span class="method-start">58747 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">test_forum_subtitle_enter(哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈...)</span>
+                <span class="method-start">68656 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">submitAndQuit</span>
+                <span class="method-start">75508 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">doAfterMethod_2</span>
+                <span class="method-start">78920 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">doBeforeClass</span>
+                <span class="method-start">81607 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">login_to</span>
+                <span class="method-start">84410 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">test_forum_subtitle_enter(12345)</span>
+                <span class="method-start">94168 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">submitAndQuit</span>
+                <span class="method-start">100948 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">doAfterMethod_2</span>
+                <span class="method-start">104208 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">doBeforeClass</span>
+                <span class="method-start">107266 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">login_to</span>
+                <span class="method-start">109969 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">test_forum_title_enter(￥%#)</span>
+                <span class="method-start">119847 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">submitAndQuit</span>
+                <span class="method-start">126667 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">doAfterMethod_2</span>
+                <span class="method-start">129896 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">doBeforeClass</span>
+                <span class="method-start">130627 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">login_to</span>
+                <span class="method-start">133369 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">test_forum_title_enter(剑鱼论坛)</span>
+                <span class="method-start">143247 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">submitAndQuit</span>
+                <span class="method-start">150020 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">doAfterMethod_2</span>
+                <span class="method-start">153367 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">doBeforeClass</span>
+                <span class="method-start">154167 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">login_to</span>
+                <span class="method-start">156892 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">test_forum_title_enter(哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈...)</span>
+                <span class="method-start">166617 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">submitAndQuit</span>
+                <span class="method-start">173598 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">doAfterMethod_2</span>
+                <span class="method-start">176786 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">doBeforeClass</span>
+                <span class="method-start">177508 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">login_to</span>
+                <span class="method-start">180399 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">test_forum_title_enter(12345)</span>
+                <span class="method-start">190228 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">submitAndQuit</span>
+                <span class="method-start">196907 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">doAfterMethod_2</span>
+                <span class="method-start">200141 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-class after">
+                <span class="method-name">doAfterMethod</span>
+                <span class="method-start">200907 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.webtest.ljjdemo.Sign_in_setting</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">doBeforeClass</span>
+                <span class="method-start">200929 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">login_to</span>
+                <span class="method-start">203651 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">test_Points_sign_in(-1)</span>
+                <span class="method-start">213668 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">submitAndQuit</span>
+                <span class="method-start">217127 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">doAfterMethod_2</span>
+                <span class="method-start">220408 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">doBeforeClass</span>
+                <span class="method-start">223108 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">login_to</span>
+                <span class="method-start">225907 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">test_Points_sign_in(10)</span>
+                <span class="method-start">235727 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">submitAndQuit</span>
+                <span class="method-start">239170 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">doAfterMethod_2</span>
+                <span class="method-start">242401 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">doBeforeClass</span>
+                <span class="method-start">245047 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">login_to</span>
+                <span class="method-start">247817 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">test_Points_sign_in(1+2)</span>
+                <span class="method-start">257768 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">submitAndQuit</span>
+                <span class="method-start">261220 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">doAfterMethod_2</span>
+                <span class="method-start">261330 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-class after">
+                <span class="method-name">doAfterMethod</span>
+                <span class="method-start">261330 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.webtest.ljjdemo.Level_setting</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">doBeforeClass</span>
+                <span class="method-start">261378 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">login_to</span>
+                <span class="method-start">264134 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">test_level_description(1级)</span>
+                <span class="method-start">274103 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">submitAndQuit</span>
+                <span class="method-start">278388 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">doAfterMethod_2</span>
+                <span class="method-start">281597 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">doBeforeClass</span>
+                <span class="method-start">284288 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">login_to</span>
+                <span class="method-start">287087 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">test_level_description(￥%#)</span>
+                <span class="method-start">296928 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">submitAndQuit</span>
+                <span class="method-start">301288 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">doAfterMethod_2</span>
+                <span class="method-start">304520 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">doBeforeClass</span>
+                <span class="method-start">307187 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">login_to</span>
+                <span class="method-start">310009 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">test_required_growth_value(-1)</span>
+                <span class="method-start">319808 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">submitAndQuit</span>
+                <span class="method-start">324057 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">doAfterMethod_2</span>
+                <span class="method-start">327257 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">doBeforeClass</span>
+                <span class="method-start">328128 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">login_to</span>
+                <span class="method-start">330855 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">test_required_growth_value(10)</span>
+                <span class="method-start">340838 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">submitAndQuit</span>
+                <span class="method-start">344238 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">doAfterMethod_2</span>
+                <span class="method-start">347456 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">doBeforeClass</span>
+                <span class="method-start">348257 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">login_to</span>
+                <span class="method-start">351049 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">test_required_growth_value(￥%#)</span>
+                <span class="method-start">360807 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">submitAndQuit</span>
+                <span class="method-start">365298 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">doAfterMethod_2</span>
+                <span class="method-start">368577 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">doBeforeClass</span>
+                <span class="method-start">369247 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">login_to</span>
+                <span class="method-start">372007 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">test_required_growth_value(liujunjiang)</span>
+                <span class="method-start">382118 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">submitAndQuit</span>
+                <span class="method-start">385568 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">doAfterMethod_2</span>
+                <span class="method-start">388798 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">doBeforeClass</span>
+                <span class="method-start">391428 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">login_to</span>
+                <span class="method-start">394188 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">test_required_growth_value(12345678)</span>
+                <span class="method-start">403908 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">submitAndQuit</span>
+                <span class="method-start">408147 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">doAfterMethod_2</span>
+                <span class="method-start">411410 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-class after">
+                <span class="method-name">doAfterMethod</span>
+                <span class="method-start">414208 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.webtest.ljjdemo.Growth_setting</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">doBeforeClass</span>
+                <span class="method-start">414241 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">login_to</span>
+                <span class="method-start">417097 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">test_growth_value(-1)</span>
+                <span class="method-start">427047 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">submitAndQuit</span>
+                <span class="method-start">431537 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">doAfterMethod_2</span>
+                <span class="method-start">434887 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">doBeforeClass</span>
+                <span class="method-start">437668 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">login_to</span>
+                <span class="method-start">440468 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">test_growth_value(10)</span>
+                <span class="method-start">450268 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">submitAndQuit</span>
+                <span class="method-start">454647 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">doAfterMethod_2</span>
+                <span class="method-start">457857 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">doBeforeClass</span>
+                <span class="method-start">460598 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">login_to</span>
+                <span class="method-start">463276 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">test_growth_value(#￥%)</span>
+                <span class="method-start">473227 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">submitAndQuit</span>
+                <span class="method-start">477528 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">doAfterMethod_2</span>
+                <span class="method-start">480897 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">doBeforeClass</span>
+                <span class="method-start">483859 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">login_to</span>
+                <span class="method-start">486688 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">test_growth_value(liujunjiang)</span>
+                <span class="method-start">496607 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">submitAndQuit</span>
+                <span class="method-start">500138 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">doAfterMethod_2</span>
+                <span class="method-start">503428 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">doBeforeClass</span>
+                <span class="method-start">504297 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">login_to</span>
+                <span class="method-start">507097 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">test_growth_value(123456)</span>
+                <span class="method-start">517108 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">submitAndQuit</span>
+                <span class="method-start">521427 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">doAfterMethod_2</span>
+                <span class="method-start">524638 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">doBeforeClass</span>
+                <span class="method-start">527298 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">login_to</span>
+                <span class="method-start">530127 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">test_integral(-1)</span>
+                <span class="method-start">539907 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">submitAndQuit</span>
+                <span class="method-start">544148 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">doAfterMethod_2</span>
+                <span class="method-start">547577 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">doBeforeClass</span>
+                <span class="method-start">548328 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">login_to</span>
+                <span class="method-start">551138 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">test_integral(10)</span>
+                <span class="method-start">560910 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">submitAndQuit</span>
+                <span class="method-start">564300 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">doAfterMethod_2</span>
+                <span class="method-start">567497 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">doBeforeClass</span>
+                <span class="method-start">570238 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">login_to</span>
+                <span class="method-start">573047 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">test_integral(#￥%)</span>
+                <span class="method-start">583088 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">submitAndQuit</span>
+                <span class="method-start">587527 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">doAfterMethod_2</span>
+                <span class="method-start">590982 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">doBeforeClass</span>
+                <span class="method-start">591768 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">login_to</span>
+                <span class="method-start">594567 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">test_integral(liujunjiang)</span>
+                <span class="method-start">604528 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">submitAndQuit</span>
+                <span class="method-start">607887 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">doAfterMethod_2</span>
+                <span class="method-start">611110 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">doBeforeClass</span>
+                <span class="method-start">614028 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">login_to</span>
+                <span class="method-start">616827 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">test_integral(123456)</span>
+                <span class="method-start">626588 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">submitAndQuit</span>
+                <span class="method-start">631048 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">doAfterMethod_2</span>
+                <span class="method-start">634361 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-class after">
+                <span class="method-name">doAfterMethod</span>
+                <span class="method-start">635066 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.webtest.ljjdemo.Friendship_link</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">doBeforeClass</span>
+                <span class="method-start">635121 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">login_to</span>
+                <span class="method-start">637903 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">test_friendship_link_add(百度, http://baidu.com)</span>
+                <span class="method-start">644668 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">submitAndQuit</span>
+                <span class="method-start">648218 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">doAfterMethod_2</span>
+                <span class="method-start">654958 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">doBeforeClass</span>
+                <span class="method-start">655607 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">login_to</span>
+                <span class="method-start">658428 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">test_friendship_link_add(#￥%, http://baidu.com)</span>
+                <span class="method-start">664985 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">submitAndQuit</span>
+                <span class="method-start">668578 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">doAfterMethod_2</span>
+                <span class="method-start">675301 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">doBeforeClass</span>
+                <span class="method-start">677998 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">login_to</span>
+                <span class="method-start">680808 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">test_friendship_link_add(哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈...)</span>
+                <span class="method-start">687538 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">submitAndQuit</span>
+                <span class="method-start">690938 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">doAfterMethod_2</span>
+                <span class="method-start">697518 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">doBeforeClass</span>
+                <span class="method-start">700118 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">login_to</span>
+                <span class="method-start">702908 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">test_friendship_link_add(百度, baidu.com)</span>
+                <span class="method-start">709518 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">submitAndQuit</span>
+                <span class="method-start">713058 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">doAfterMethod_2</span>
+                <span class="method-start">719649 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">doBeforeClass</span>
+                <span class="method-start">720388 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">login_to</span>
+                <span class="method-start">723238 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">test_friendship_link_add(#￥%, baidu.com)</span>
+                <span class="method-start">729990 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">submitAndQuit</span>
+                <span class="method-start">733417 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">doAfterMethod_2</span>
+                <span class="method-start">739991 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">doBeforeClass</span>
+                <span class="method-start">740688 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">login_to</span>
+                <span class="method-start">743391 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">test_friendship_link_add(哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈...)</span>
+                <span class="method-start">749928 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">submitAndQuit</span>
+                <span class="method-start">753487 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">doAfterMethod_2</span>
+                <span class="method-start">760108 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">doBeforeClass</span>
+                <span class="method-start">762928 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">login_to</span>
+                <span class="method-start">765777 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">test_friendship_link_add(百度, https://baidu.com)</span>
+                <span class="method-start">772491 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">submitAndQuit</span>
+                <span class="method-start">775930 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">doAfterMethod_2</span>
+                <span class="method-start">782501 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">doBeforeClass</span>
+                <span class="method-start">783268 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">login_to</span>
+                <span class="method-start">786047 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">test_friendship_link_add(#￥%, https://baidu.com)</span>
+                <span class="method-start">792688 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">submitAndQuit</span>
+                <span class="method-start">796128 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">doAfterMethod_2</span>
+                <span class="method-start">802668 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">doBeforeClass</span>
+                <span class="method-start">803363 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">login_to</span>
+                <span class="method-start">806187 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">test_friendship_link_add(哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈...)</span>
+                <span class="method-start">812970 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">submitAndQuit</span>
+                <span class="method-start">816488 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">doAfterMethod_2</span>
+                <span class="method-start">823358 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">doBeforeClass</span>
+                <span class="method-start">825913 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">login_to</span>
+                <span class="method-start">828708 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">test_friendship_link_add(123, http://baidu.com)</span>
+                <span class="method-start">835318 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">submitAndQuit</span>
+                <span class="method-start">838688 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">doAfterMethod_2</span>
+                <span class="method-start">845358 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">doBeforeClass</span>
+                <span class="method-start">848068 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">login_to</span>
+                <span class="method-start">850868 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">test_friendship_link_add(123, baidu.com)</span>
+                <span class="method-start">857548 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">submitAndQuit</span>
+                <span class="method-start">860868 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">doAfterMethod_2</span>
+                <span class="method-start">867591 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">doBeforeClass</span>
+                <span class="method-start">868328 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">login_to</span>
+                <span class="method-start">871148 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">test_friendship_link_add(123, https://baidu.com)</span>
+                <span class="method-start">877728 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">submitAndQuit</span>
+                <span class="method-start">881298 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">doAfterMethod_2</span>
+                <span class="method-start">887980 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">doBeforeClass</span>
+                <span class="method-start">890628 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">login_to</span>
+                <span class="method-start">893398 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">test_friendship_link_add(百度, www.baidu,com)</span>
+                <span class="method-start">900230 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">submitAndQuit</span>
+                <span class="method-start">903558 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">doAfterMethod_2</span>
+                <span class="method-start">910248 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">doBeforeClass</span>
+                <span class="method-start">912998 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">login_to</span>
+                <span class="method-start">915769 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">test_friendship_link_add(#￥%, www.baidu,com)</span>
+                <span class="method-start">922358 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">submitAndQuit</span>
+                <span class="method-start">925922 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">doAfterMethod_2</span>
+                <span class="method-start">932537 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">doBeforeClass</span>
+                <span class="method-start">935228 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">login_to</span>
+                <span class="method-start">937988 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">test_friendship_link_add(哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈...)</span>
+                <span class="method-start">944688 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">submitAndQuit</span>
+                <span class="method-start">948098 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">doAfterMethod_2</span>
+                <span class="method-start">954568 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">doBeforeClass</span>
+                <span class="method-start">955308 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">login_to</span>
+                <span class="method-start">958087 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">test_friendship_link_add(123, www.baidu,com)</span>
+                <span class="method-start">964678 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">submitAndQuit</span>
+                <span class="method-start">968027 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">doAfterMethod_2</span>
+                <span class="method-start">974678 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">doBeforeClass</span>
+                <span class="method-start">977421 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">login_to</span>
+                <span class="method-start">980288 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">test_friendship_link_sort(0)</span>
+                <span class="method-start">986888 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">submitAndQuit</span>
+                <span class="method-start">993568 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">doAfterMethod_2</span>
+                <span class="method-start">996962 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">doBeforeClass</span>
+                <span class="method-start">999738 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">login_to</span>
+                <span class="method-start">1002588 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">test_friendship_link_sort(10)</span>
+                <span class="method-start">1009148 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">submitAndQuit</span>
+                <span class="method-start">1015768 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">doAfterMethod_2</span>
+                <span class="method-start">1019121 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">doBeforeClass</span>
+                <span class="method-start">1021868 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">login_to</span>
+                <span class="method-start">1024687 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">test_friendship_link_sort(1234567890)</span>
+                <span class="method-start">1031488 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">submitAndQuit</span>
+                <span class="method-start">1037987 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">doAfterMethod_2</span>
+                <span class="method-start">1041356 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">doBeforeClass</span>
+                <span class="method-start">1044118 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">login_to</span>
+                <span class="method-start">1046896 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">test_friendship_link_sort(test)</span>
+                <span class="method-start">1053458 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">submitAndQuit</span>
+                <span class="method-start">1060091 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">doAfterMethod_2</span>
+                <span class="method-start">1063488 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">doBeforeClass</span>
+                <span class="method-start">1066328 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">login_to</span>
+                <span class="method-start">1069078 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">test_friendship_link_sort(-1)</span>
+                <span class="method-start">1076058 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">submitAndQuit</span>
+                <span class="method-start">1082749 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">doAfterMethod_2</span>
+                <span class="method-start">1086108 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">doBeforeClass</span>
+                <span class="method-start">1088848 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">login_to</span>
+                <span class="method-start">1091628 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">test_friendship_link_sort(测试)</span>
+                <span class="method-start">1098342 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">submitAndQuit</span>
+                <span class="method-start">1104850 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">doAfterMethod_2</span>
+                <span class="method-start">1108085 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-class after">
+                <span class="method-name">doAfterMethod</span>
+                <span class="method-start">1110842 ms</span>
+              </div> <!-- configuration-class after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>
