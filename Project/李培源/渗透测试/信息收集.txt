@@ -1,0 +1,7 @@
+部署在本机上的前台网址：localhost:9999/uploads/
+部署在本机上的后台网址：localhost:9999/uploads/admin/
+本机后台目录：E:\bluecms_1.6\uploads\admin
+本机数据库文件所在目录：E:\bluecms_1.6\uploads\install
+本机安装目录：E:\bluecms_1.6\uploads\install
+robots.txt所在目录：E:\bluecms_1.6\uploads
+上传目录：localhost:9999/uploads/
