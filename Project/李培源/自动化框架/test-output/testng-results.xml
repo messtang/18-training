@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="49" total="50" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="60574" started-at="2020-12-02T08:18:44 CST" finished-at="2020-12-02T08:19:45 CST">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="60574" started-at="2020-12-02T08:18:44 CST" finished-at="2020-12-02T08:19:45 CST">
+      <class name="com.webtest.demo.SmokeTests">
+        <test-method status="PASS" signature="doBeforeClass()[pri:0, instance:com.webtest.demo.SmokeTests@7c29daf3]" name="doBeforeClass" is-config="true" duration-ms="29462" started-at="2020-12-02T08:18:45 CST" finished-at="2020-12-02T08:19:14 CST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doBeforeClass -->
+        <test-method status="PASS" signature="test7(java.lang.String, java.lang.String)[pri:7, instance:com.webtest.demo.SmokeTests@7c29daf3]" name="test7" duration-ms="25391" started-at="2020-12-02T08:19:15 CST" data-provider="excel6" finished-at="2020-12-02T08:19:40 CST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[12345678]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test7 -->
+        <test-method status="PASS" signature="doAfterMethod()[pri:0, instance:com.webtest.demo.SmokeTests@7c29daf3]" name="doAfterMethod" is-config="true" duration-ms="4578" started-at="2020-12-02T08:19:40 CST" finished-at="2020-12-02T08:19:45 CST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doAfterMethod -->
+      </class> <!-- com.webtest.demo.SmokeTests -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
