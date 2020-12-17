@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8"/>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="lib" path="libs/commons-cli-1.4.jar"/>
+	<classpathentry kind="lib" path="libs/commons-codec-1.13.jar"/>
+	<classpathentry kind="lib" path="libs/httpclient5-5.0.1.jar" sourcepath="C:/Users/ASUS/Desktop/2001/ppt/接口测试/03 接口测试工具PostMan的使用/httpcomponents-client-5.0.1-src.zip"/>
+	<classpathentry kind="lib" path="libs/httpclient5-cache-5.0.1.jar"/>
+	<classpathentry kind="lib" path="libs/httpclient5-fluent-5.0.1.jar"/>
+	<classpathentry kind="lib" path="libs/httpclient5-testing-5.0.1.jar"/>
+	<classpathentry kind="lib" path="libs/httpclient5-win-5.0.1.jar"/>
+	<classpathentry kind="lib" path="libs/httpcore5-5.0.1.jar" sourcepath="C:/Users/ASUS/Desktop/2001/ppt/接口测试/03 接口测试工具PostMan的使用/httpcomponents-client-5.0.1-src.zip"/>
+	<classpathentry kind="lib" path="libs/httpcore5-h2-5.0.1.jar"/>
+	<classpathentry kind="lib" path="libs/httpcore5-reactive-5.0.1.jar"/>
+	<classpathentry kind="lib" path="libs/httpcore5-testing-5.0.1.jar"/>
+	<classpathentry kind="lib" path="libs/jna-5.2.0.jar"/>
+	<classpathentry kind="lib" path="libs/jna-platform-5.2.0.jar"/>
+	<classpathentry kind="lib" path="libs/reactive-streams-1.0.2.jar"/>
+	<classpathentry kind="lib" path="libs/rxjava-2.2.8.jar"/>
+	<classpathentry kind="lib" path="libs/slf4j-api-1.7.25.jar"/>
+	<classpathentry kind="lib" path="libs/guice-4.2.2.jar"/>
+	<classpathentry kind="lib" path="libs/commons-compress-1.19.jar"/>
+	<classpathentry kind="lib" path="libs/selenium-server-standalone-3.141.59.jar"/>
+	<classpathentry kind="lib" path="libs/commons-lang-2.5.jar"/>
+	<classpathentry kind="lib" path="libs/commons-beanutils-1.7.0.jar"/>
+	<classpathentry kind="lib" path="libs/commons-collections-3.1.jar"/>
+	<classpathentry kind="lib" path="libs/commons-logging-1.2.jar"/>
+	<classpathentry kind="lib" path="libs/ezmorph-1.0.3.jar"/>
+	<classpathentry kind="lib" path="libs/json-lib-2.4-jdk15.jar"/>
+	<classpathentry kind="con" path="org.testng.TESTNG_CONTAINER"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
